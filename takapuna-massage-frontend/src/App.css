@@ -6,14 +6,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-:root {
-    --primary: rgb(243, 62, 62);
-    --secondary: rgb(236, 131, 33);
-    --dark: #212121;
-    --light: #F3F3F3;
-    --radius: 0.2rem;
-}
-
 .container {
     margin: 80px auto 0 auto;
     max-width: 1200px;
@@ -21,64 +13,4 @@ body {
 
 .nav-container {
     margin: auto;
-}
-
-$radius: 0.2rem;
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
-.pricing {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(192px, 256px));
-    gap: 32px;
-    justify-content: center;
-}
-
-.card {
-    overflow: hidden;
-    box-shadow: 0 2px 20px gray;
-    border-radius: --radius;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    transition: transform 200ms ease-in;
-}
-
-.card__element.card__image {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
-}
-
-..card__element.service__details {
-    padding: 0 1rem;
-}
-
-.card__element.card__button {
-    padding: 15px;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 15px;
-    margin: 1rem;
-    border: 2px solid --primary;
-    background: transparent;
-    color: --primary;
-    border-radius: --radius;
-    transition: background 200ms ease-in, color 200ms ease in;
-}
-
-.card:hover {
-    transform: scale(1.02);
-}
-
-.card:hover.card.card__button {
-    background: --primary;
-    color: white;
 }
