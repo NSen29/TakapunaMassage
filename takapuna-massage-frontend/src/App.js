@@ -8,8 +8,8 @@ import about from './pages/about';
 import pricing from './pages/pricing';
 import contact from './pages/contact';
 
-
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 export class App extends Component {
   render() {
@@ -27,6 +27,12 @@ export class App extends Component {
             </Switch>
           </div>
         </Router>
+      
+        <div className="container">
+          <div className='footer'>
+            <Footer/>
+          </div>
+        </div>
       </div>
     );
   }

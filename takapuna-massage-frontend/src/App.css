@@ -11,7 +11,7 @@ body {
 
 .container {
   margin: 80px auto 0 auto;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .nav-container {
@@ -19,7 +19,37 @@ body {
   background-color: black;
 }
 
-.icon {
-  max-width: 10px;
-  max-height: 20px;
+.text-on-image {
+  position: absolute;
+  right:10%;
+  left:10%;
+  bottom:15%;
+  color:beige;
+}
+.head-text {
+  position: relative;
+}
+
+.footer {
+  position:absolute;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both
+}
+
+.colcon{
+  columns: 2 auto;
+  height: 160px;
+  line-height: 10px;
 }
