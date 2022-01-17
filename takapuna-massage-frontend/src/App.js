@@ -28,8 +28,8 @@ export class App extends Component {
           </div>
         </Router>
       
-        <div className="container">
-          <div className='footer'>
+        <div className= "footer-container">
+          <div className="footer">
             <Footer/>
           </div>
         </div>
