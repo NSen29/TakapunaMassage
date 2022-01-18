@@ -18,7 +18,7 @@ export class pricing extends Component {
 
             <
             PriceCard service = 'Reflexology Foot Massage'
-            image = 'https://lh3.googleusercontent.com/KNubFiT0x1OnSjQovVrTXTXYV9HYacCd5fL1bJEtlJ3DLGJd4rJ3pc4KOwr45QAc3rhlPHmKyFwnCTjQTGKefKGG8geTuuL58QeiqmeYnCOZVR0biXzSNeYRT0wBNO3OvQ=w1280'
+            image = 'https://lh3.googleusercontent.com/RTOO9Rt5idYqqS2bYZmBC7equEhOidDDc5PWb8W0AA2V5Umtqq2K0d1pcwHxu9t-ZUBubDG9fv4q0oGtirOclI0ChMBqY5WPrhuVnCqCdkWFR_g2DR2L5EjZdzTW9gWQ3g=w1280'
             body = '30 min sessions for $50 / 45 min sessions for $75 / 60 min sessions for $90' / >
             <
             /div>

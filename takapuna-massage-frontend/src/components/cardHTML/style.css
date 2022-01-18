@@ -23,7 +23,6 @@
         width: 365px;
         height: 340px;
         transition: 0.3s ease-out;
-        box-shadow: 0.3px 15px rgba(102, 90, 90, 0.7);
     }
     
     .card .imgbox {
@@ -51,7 +50,7 @@
         width: 100%;
         height: 100px;
         padding: 12px;
-        background: #fa3584;
+        background: orangered;
         transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
         box-sizing: border-box;
         overflow: hidden;
@@ -87,7 +86,7 @@
     
     h3 {
         text-align: center;
-        font-size: 40%;
+        font-size: 72%;
         text-emphasis-color: blue;
     }
     
