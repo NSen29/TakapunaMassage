@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
-import Container from '@material-ui/core/Container';
 
-import background from '../images/background1.jpeg'
+import background from '../images/background1.png'
 import artic from '../images/artic.jpg'
 
 
 export class home extends Component {
     render() {
         return (
-            <Container className='background-image'> 
+            <div style={{ backgroundImage: `url(${background})`,backgroundRepeat: 'no-repeat',resizeMode: 'contain'}}>
                 <div className='head-text'>
                     <div className='head-image'>
-                        <img src={artic} alt="Stones" width="1252px" height="834px"/>
+                        <img src={artic} alt="Stones" width="1252px" height="834px" />
                     </div>
                     <div className='text-on-image'>
                         <h1>Takapuna Therapeutic Massage is a Professional Traditional Massage shop in Takapuna North Shore. 
@@ -21,9 +20,9 @@ export class home extends Component {
                             The environment in our store is comfortable and relaxing and our massage therapists are professional and friendly. 
                             We provide soft music during treatments with complimentary refreshing health tea after each session. 
                             Treat yourself to a massage -let yourself go, free your mind and calm your body and soul. </h1>
-                        </div>
+                    </div>
                 </div>
-            </Container>
+            </div>
         )
     }
 }
