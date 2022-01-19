@@ -1,62 +1,209 @@
 import React, { Component } from 'react';
 import './price.css'
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Row, Col, Container } from 'reactstrap'
+
+
 
 export class pricing extends Component {
     render() {
         return ( <
-            div >
+            div className = "Card" >
             <
-            PriceCard service = 'Upper and Lower Body'
-            image = 'https://lh5.googleusercontent.com/WczeYaBDBshhUWwYqDjC7AkAVO_vWhanxsNWF7S2xorWsT67jk3Y-yjxbyaW_Fq146xquS1BTv2bBbtPxZA3f8nYNMXcKTrwKiyJT2YMrmEkYyqTwsqYF_sDoN-MaXWDAA=w1280'
-            body = 'Neck, Shoulders and Back: Back and Leg 30 min sessions for $50 / 45 min sessions for $70 / 60 min sessions for $85 ' / >
+            Container >
+            <
+            Row >
+            <
+            Col md = { 3 } >
+            <
+            Card >
+            <
+            CardImg top width = "100%"
+            src = "https://picsum.photos/318/180" / >
+            <
+            CardBody >
+            <
+            CardTitle tag = "h5" > Upper & Lower Body < /CardTitle>   <
+            CardSubtitle className = "mb-2 text-muted"
+            tag = "h6" >
+            'Neck, Shoulders and Back: Back and Leg 30 min sessions for $50 / 45 min sessions for $70 / 60 min sessions for $85 </CardSubtitle> <
+            CardText >
+            Some quick example text to build on the card title and make up the bulk of the card 's content. </CardText>  <
+            Button >
+            View More < /Button>   < /
+            CardBody >
 
             <
-            PriceCard service = 'Whole Body'
-            image = 'https://lh4.googleusercontent.com/i6Z20_FPY1w3_JdXrrPJb692HeSh0b9ayN_Z4Kpag3iP_l_CPa6DIejwN_oisMGyeNNT5I7_L_uohzfaWyzCc9KFcFWwz0jI6bncDRTzqOF39TDtfyAa1dx2nD3-NpvwkA=w1280'
-            body = '45 min sessions  for  $70 / 60 min sessions for $85, 90 min sessions for $125 /120 min sessions for $160' /
-            >
+            /Card> < /
+            Col >
+            <
+            Col md = { 3 } >
+            <
+            Card >
+            <
+            CardImg top width = "100%"
+            src = "https://picsum.photos/318/180" / >
+            <
+            CardBody >
+            <
+            CardTitle tag = "h5" >
+            Whole Body < /CardTitle>  <
+            CardSubtitle className = "mb-2 text-muted"
+            tag = "h6" >
+            45 min sessions
+            for $70 / 60 min sessions
+            for $85, 90 min sessions
+            for $125 / 120 min sessions
+            for $160 <
+            /CardSubtitle> <
+            CardText >
+            Some quick example text to build on the card title and make up the bulk of the card 's content. </CardText>  <
+            Button > View More < /Button>  < /
+            CardBody >
 
             <
-            PriceCard service = 'Reflexology Foot Massage'
-            image = 'https://lh3.googleusercontent.com/RTOO9Rt5idYqqS2bYZmBC7equEhOidDDc5PWb8W0AA2V5Umtqq2K0d1pcwHxu9t-ZUBubDG9fv4q0oGtirOclI0ChMBqY5WPrhuVnCqCdkWFR_g2DR2L5EjZdzTW9gWQ3g=w1280'
-            body = '30 min sessions for $50 / 45 min sessions for $75 / 60 min sessions for $90' / >
+            /Card> < /
+            Col > <
+            Col md = { 3 } >
+            <
+            Card >
+            <
+            CardImg top width = "100%"
+            src = "https://picsum.photos/318/180" / >
+            <
+            CardBody >
+            <
+            CardTitle tag = "h5" >
+            Reflexology Foot Massage < /CardTitle>  <
+            CardSubtitle className = "mb-2 text-muted"
+            tag = "h6" >
+            30 min sessions
+            for $50 / 45 min sessions
+            for $75 / 60 min sessions
+            for $90 <
+            /CardSubtitle> <
+            CardText >
+            Some quick example text to build on the card title and make up the bulk of the card 's content. </CardText>  <
+            Button > View More < /Button>  < /
+            CardBody >
+
+            <
+            /Card> < /
+            Col > <
+            Col md = { 3 } >
+            <
+            Card >
+            <
+            CardImg top width = "100%"
+            src = "https://picsum.photos/318/180" / >
+            <
+            CardBody >
+            <
+            CardTitle tag = "h5" >
+            Head Neck and Shoulders < /CardTitle>  <
+            CardSubtitle className = "mb-2 text-muted"
+            tag = "h6" >
+            10 min sessions
+            for $20 / 20 min sessions
+            for $35 / 30 min sessions
+            for $50 <
+            /CardSubtitle> <
+            CardText >
+            Some quick example text to build on the card title and make up the bulk of the card 's content. </CardText>  <
+            Button > View More < /Button>  < /
+            CardBody >
+
+            <
+            /Card> < /
+            Col >
+            <
+            Col md = { 3 } >
+            <
+            Card >
+            <
+            CardImg top width = "100%"
+            src = "https://picsum.photos/318/180" / >
+            <
+            CardBody >
+            <
+            CardTitle tag = "h5" >
+            Head Neck and Shoulders < /CardTitle>  <
+            CardSubtitle className = "mb-2 text-muted"
+            tag = "h6" >
+            10 min sessions
+            for $20 / 20 min sessions
+            for $35 / 30 min sessions
+            for $50 <
+            /CardSubtitle> <
+            CardText >
+            Some quick example text to build on the card title and make up the bulk of the card 's content. </CardText>  <
+            Button > View More < /Button>  < /
+            CardBody >
+
+            <
+            /Card> < /
+            Col > <
+            Col md = { 3 } >
+            <
+            Card >
+            <
+            CardImg top width = "100%"
+            src = "https://picsum.photos/318/180" / >
+            <
+            CardBody >
+            <
+            CardTitle tag = "h5" >
+            Head Neck and Shoulders < /CardTitle>  <
+            CardSubtitle className = "mb-2 text-muted"
+            tag = "h6" >
+            10 min sessions
+            for $20 / 20 min sessions
+            for $35 / 30 min sessions
+            for $50 <
+            /CardSubtitle> <
+            CardText >
+            Some quick example text to build on the card title and make up the bulk of the card 's content. </CardText>  <
+            Button > View More < /Button>  < /
+            CardBody >
+
+            <
+            /Card> < /
+            Col > <
+            Col md = { 3 } >
+            <
+            Card >
+            <
+            CardImg top width = "100%"
+            src = "https://picsum.photos/318/180" / >
+            <
+            CardBody >
+            <
+            CardTitle tag = "h5" >
+            Head Neck and Shoulders < /CardTitle>  <
+            CardSubtitle className = "mb-2 text-muted"
+            tag = "h6" >
+            10 min sessions
+            for $20 / 20 min sessions
+            for $35 / 30 min sessions
+            for $50 <
+            /CardSubtitle> <
+            CardText >
+            Some quick example text to build on the card title and make up the bulk of the card 's content. </CardText>  <
+            Button > View More < /Button>  < /
+            CardBody >
+
+            <
+            /Card> < /
+            Col > <
+            /Row>
+
+            <
+            /Container>
+
+
+
             <
             /div>
         )
     }
 }
 export default pricing
-
-
-function PriceCard({ service, image, body }) {
-    return ( <
-        div className = 'service-position' >
-        <
-        div className = "image-position" >
-        <
-        img src = { image }
-        alt = '' / >
-        <
-        /div>     <
-        div className = "service-content" >
-        <
-        div className = "service-name" >
-        <
-        h3 > { service } < /h3>       < /
-        div > <
-        div className = "service-text" >
-        <
-        p > { body } < /p>   < /
-        div > <
-        div className = "btn" >
-        <
-        button >
-        <
-        a > View more <
-        /a>    < /
-        button > <
-        /div>   < /
-        div > <
-        /div>
-    )
-}
