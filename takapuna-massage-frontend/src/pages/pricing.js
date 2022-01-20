@@ -17,12 +17,12 @@ export class pricing extends Component {
          
             <Container className= "gap">
             <Row>
-            <Col md = { 4 }>
+            <Col md = { 6 }>
             <Card body style = 
             {
                 {
-                    backgroundColor: '#f25c2d',
-                    borderColor: '#d00000',
+                    backgroundColor: '#ec8321',
+                    borderColor: '#f33e3e',
                     borderWidth: 0,
                     borderStyle: 'groove'
                 }
@@ -45,16 +45,16 @@ export class pricing extends Component {
             </CardBody> 
             </Card>  
              </Col>
-            <Col md = { 4 }>
+            <Col md = { 6 }>
         <Card body style= {
                 {
                     textAlign: 'center',
-                    backgroundColor: '#f25c2d',
+                    backgroundColor: '#212121',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
                 }
-            } >
+            } inverse >
             <CardImg top width = "100%"
             src = "https://picsum.photos/318/180"/>
             <CardBody>
@@ -74,15 +74,15 @@ export class pricing extends Component {
              </CardBody>
              </Card>
              </Col>
-          <Col md = { 4 } >
+          <Col md = { 6 } >
             <Card body style = {
                 {
-                    backgroundColor: '#f25c2d',
+                    backgroundColor: '#d00000',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
                 }
-            } >
+            } inverse>
             <CardImg top width = "100%"
             src = "https://picsum.photos/318/180" / >
             <CardBody>
@@ -99,10 +99,10 @@ export class pricing extends Component {
     </CardBody>
  </Card>
  </Col>
-<Col md={4}>
-    <Card body inverse style = {
+<Col md={6}>
+    <Card body style = {
                 {
-                    backgroundColor: '#f25c2d',
+                    backgroundColor: '#ec8321',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
@@ -124,10 +124,10 @@ export class pricing extends Component {
  </CardBody>
 </Card>
  </Col>
- <Col md = { 4 } >
+ <Col md = { 6 } >
 <Card body inverse style = {
                 {
-                    backgroundColor: '#f25c2d',
+                    backgroundColor: '#212121',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
@@ -149,10 +149,10 @@ export class pricing extends Component {
  </CardBody>
 </Card>
 </Col>
-<Col md = { 4 }>
+<Col md = { 6 }>
 <Card body inverse style = {
                 {
-                    backgroundColor: '#f25c2d',
+                    backgroundColor: '#d00000',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
@@ -176,9 +176,9 @@ export class pricing extends Component {
     </Card>
                         </Col>
                         <Col md = { 6 } >
-            <Card body inverse style = {
+            <Card body style = {
                 {
-                    backgroundColor: '#f25c2d',
+                    backgroundColor: '#ec8321',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
@@ -203,7 +203,7 @@ export class pricing extends Component {
                         <Col md = { 6 } >
             <Card body inverse style = {
                 {
-                    backgroundColor: '#f25c2d',
+                    backgroundColor: '#212121',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
@@ -237,31 +237,27 @@ function HoverText() {
     const [open, setOpen] = useState(false);
   
     return (
-      <>
-        <Button
-          onClick={() => setOpen(!open)}
-          aria-controls="example-collapse-text"
-                aria-expanded={open}
-                block
-                color="danger"
-                outline
-                size="lg"
-
-        >
-          View More 
-        </Button>
-        <div style={{minHeight: '20px'}}>
-          <Collapse in={open} dimension="width">
-            <div id="example-collapse-text">
-              <Card body style={{width: '5px'}}>
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                  terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                  labore wes anderson cred nesciunt sapiente ea proident.
-              </Card>
-            </div>
-          </Collapse>
+        <>
+      <Button onClick={() => setOpen(!open)}  aria-controls="example-collapse-text" aria-expanded={open} block
+    color="danger"
+    outline
+    size="lg">
+       View More 
+      </Button>
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
         </div>
-      </>
+      </Collapse>
+    </>
     );
   }
   
