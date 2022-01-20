@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+import React, {useState, Component } from 'react';
 import './price.css'
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Row, Col, Container } from 'reactstrap'
+import Collapse from 'react-bootstrap/Collapse'
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Row, Col, Container } from 'reactstrap'
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -11,9 +13,8 @@ export class pricing extends Component {
     render() {
         return ( 
           
-    
             <div className="card text-center" >
-                
+         
             <Container className= "gap">
             <Row>
             <Col md = { 4 }>
@@ -38,8 +39,9 @@ export class pricing extends Component {
             for $50 / 45 min sessions
             for $70 / 60 min sessions
             for $85 
-            </CardText>     
-         <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>     
+                                    </CardText>     
+                                  
+         <HoverText />     
             </CardBody> 
             </Card>  
              </Col>
@@ -67,7 +69,8 @@ export class pricing extends Component {
             for $125 / 120 min sessions
             for $160
         </CardText>
-        <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
+        
+        <HoverText />  
              </CardBody>
              </Card>
              </Col>
@@ -92,7 +95,7 @@ export class pricing extends Component {
          </CardSubtitle>
          <CardText>
         </CardText>
-     <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
+        <HoverText />  
     </CardBody>
  </Card>
  </Col>
@@ -117,7 +120,7 @@ export class pricing extends Component {
     </CardSubtitle>
 <CardText>
 </CardText>
- <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
+<HoverText />  
  </CardBody>
 </Card>
  </Col>
@@ -142,7 +145,7 @@ export class pricing extends Component {
          for $50 </CardSubtitle>
      <CardText>
     </CardText>
-<Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
+    <HoverText />  
  </CardBody>
 </Card>
 </Col>
@@ -168,7 +171,7 @@ export class pricing extends Component {
      </CardSubtitle>
  <CardText>
     </CardText>
-     <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
+    <HoverText/>  
      </CardBody>
     </Card>
                         </Col>
@@ -193,7 +196,7 @@ export class pricing extends Component {
         </CardSubtitle>
     <CardText>
       </CardText>
-    <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
+      <HoverText />  
 </CardBody>
 </Card>
                         </Col>
@@ -218,7 +221,7 @@ export class pricing extends Component {
         </CardSubtitle>
     <CardText>
       </CardText>
-    <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
+      <HoverText />  
 </CardBody>
 </Card>
   </Col>
@@ -229,3 +232,37 @@ export class pricing extends Component {
     }
 }
 export default pricing
+
+function HoverText() {
+    const [open, setOpen] = useState(false);
+  
+    return (
+      <>
+        <Button
+          onClick={() => setOpen(!open)}
+          aria-controls="example-collapse-text"
+                aria-expanded={open}
+                block
+                color="danger"
+                outline
+                size="lg"
+
+        >
+          View More 
+        </Button>
+        <div style={{minHeight: '20px'}}>
+          <Collapse in={open} dimension="width">
+            <div id="example-collapse-text">
+              <Card body style={{width: '5px'}}>
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                  terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                  labore wes anderson cred nesciunt sapiente ea proident.
+              </Card>
+            </div>
+          </Collapse>
+        </div>
+      </>
+    );
+  }
+  
+  
