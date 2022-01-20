@@ -5,10 +5,16 @@ import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Row
 
 
 export class pricing extends Component {
+    clicky = (ev) => {
+        console.log('Button has been clicked')
+    }
     render() {
         return ( 
-            <div className = "card text-center" >
-            <Container>
+          
+    
+            <div className="card text-center" >
+                
+            <Container className= "gap">
             <Row>
             <Col md = { 4 }>
             <Card body style = 
@@ -16,7 +22,7 @@ export class pricing extends Component {
                 {
                     backgroundColor: '#f25c2d',
                     borderColor: '#d00000',
-                    borderWidth: 5,
+                    borderWidth: 0,
                     borderStyle: 'groove'
                 }
             } >
@@ -27,13 +33,13 @@ export class pricing extends Component {
             <CardTitle tag = "h5" > Upper & Lower Body </CardTitle>      
             <CardSubtitle>
             </CardSubtitle>    
-                                    <CardText className="mb-2 text-muted" tag="h6" color='white'>
+                                    <CardText className="mb-2 text-muted" tag="h6" color='light'>
                                         30 min sessions
             for $50 / 45 min sessions
             for $70 / 60 min sessions
             for $85 
             </CardText>     
-            <Button align = 'center' color = "secondary" > View More </Button>     
+         <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>     
             </CardBody> 
             </Card>  
              </Col>
@@ -43,7 +49,7 @@ export class pricing extends Component {
                     textAlign: 'center',
                     backgroundColor: '#f25c2d',
                     borderColor: '#d00000',
-                    borderWidth: 5,
+                    borderWidth: 0,
                     borderStyle: 'groove'
                 }
             } >
@@ -61,7 +67,7 @@ export class pricing extends Component {
             for $125 / 120 min sessions
             for $160
         </CardText>
-        <Button> View More </Button>
+        <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
              </CardBody>
              </Card>
              </Col>
@@ -70,7 +76,7 @@ export class pricing extends Component {
                 {
                     backgroundColor: '#f25c2d',
                     borderColor: '#d00000',
-                    borderWidth: 5,
+                    borderWidth: 0,
                     borderStyle: 'groove'
                 }
             } >
@@ -86,7 +92,7 @@ export class pricing extends Component {
          </CardSubtitle>
          <CardText>
         </CardText>
-     <Button> View More </Button>
+     <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
     </CardBody>
  </Card>
  </Col>
@@ -95,7 +101,7 @@ export class pricing extends Component {
                 {
                     backgroundColor: '#f25c2d',
                     borderColor: '#d00000',
-                    borderWidth: 5,
+                    borderWidth: 0,
                     borderStyle: 'groove'
                 }
             } >
@@ -111,7 +117,7 @@ export class pricing extends Component {
     </CardSubtitle>
 <CardText>
 </CardText>
- <Button> View More </Button>
+ <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
  </CardBody>
 </Card>
  </Col>
@@ -120,7 +126,7 @@ export class pricing extends Component {
                 {
                     backgroundColor: '#f25c2d',
                     borderColor: '#d00000',
-                    borderWidth: 5,
+                    borderWidth: 0,
                     borderStyle: 'groove'
                 }
             } >
@@ -129,14 +135,14 @@ export class pricing extends Component {
 <CardBody>
     <CardTitle tag = "h5" >
     Head Neck and Shoulders </CardTitle>
- <CardSubtitle className = "mb-2 text-muted" tag = "h6" >
+ <CardSubtitle className = "mb-2 text-muted" tag = "h6" color='light'>
             10 min sessions
             for $20 / 20 min sessions
             for $35 / 30 min sessions
          for $50 </CardSubtitle>
      <CardText>
     </CardText>
-<Button> View More </Button>
+<Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
  </CardBody>
 </Card>
 </Col>
@@ -145,7 +151,7 @@ export class pricing extends Component {
                 {
                     backgroundColor: '#f25c2d',
                     borderColor: '#d00000',
-                    borderWidth: 5,
+                    borderWidth: 0,
                     borderStyle: 'groove'
                 }
             } >
@@ -162,16 +168,16 @@ export class pricing extends Component {
      </CardSubtitle>
  <CardText>
     </CardText>
-     <Button> View More </Button>
+     <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
      </CardBody>
     </Card>
                         </Col>
-                        <Col md = { 4 } >
+                        <Col md = { 6 } >
             <Card body inverse style = {
                 {
                     backgroundColor: '#f25c2d',
                     borderColor: '#d00000',
-                    borderWidth: 5,
+                    borderWidth: 0,
                     borderStyle: 'groove'
                 }
             } >
@@ -187,16 +193,16 @@ export class pricing extends Component {
         </CardSubtitle>
     <CardText>
       </CardText>
-    <Button> View More </Button>
+    <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
 </CardBody>
 </Card>
                         </Col>
-                        <Col md = { 4 } >
+                        <Col md = { 6 } >
             <Card body inverse style = {
                 {
                     backgroundColor: '#f25c2d',
                     borderColor: '#d00000',
-                    borderWidth: 5,
+                    borderWidth: 0,
                     borderStyle: 'groove'
                 }
             } >
@@ -212,7 +218,7 @@ export class pricing extends Component {
         </CardSubtitle>
     <CardText>
       </CardText>
-    <Button> View More </Button>
+    <Button onClick={this.clicky} align = 'center' block color="danger" active outline size="lg"> View More </Button>
 </CardBody>
 </Card>
   </Col>
