@@ -93,7 +93,7 @@ Body {
     
     font-family: 'Noto Sans', sans-serif;
     display: flex;
-    border-radius: 16px;
+
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
     justify-content: center;
     height: 300vh;
@@ -104,8 +104,8 @@ Body {
 
 .carousel {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    height: 500px;
-    width: 500px;
+    height: 1500px;
+    width: 1500px;
     overflow: hidden;
     border: rgb(7, 163, 54);
 }
@@ -114,14 +114,15 @@ Body {
     display: flex;
     transform: translateX(0);
     transition: transform 0.6s ease-in-out;
-    border-radius: 16px;
+    border-radius: 40px;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 380px;
     object-fit: cover;
+    border-radius: 30px;
 }
 
 .buttons-container {
@@ -130,13 +131,16 @@ img {
 }
 
 .btn {
-    background-color: rgb(7, 163, 54);
-    color: rgb(231, 40, 40);
+    background-color: rgb(105, 107, 106);
+    color: rgb(214, 7, 7);
+    outline-color: rgb(202, 5, 5) ;
+    outline-width: medium;
     border: none;
     font-size: 17pt;
     padding: 0.9rem;
     cursor: pointer;
-    width: 49.5%;
+    width: 30%;
+    border-radius: 30px;
 }
 
 .btn:hover {
