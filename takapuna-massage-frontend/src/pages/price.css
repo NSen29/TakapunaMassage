@@ -96,7 +96,7 @@ Body {
 
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
     justify-content: center;
-    height: 300vh;
+    
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 5px;
@@ -110,13 +110,7 @@ Body {
     border: rgb(7, 163, 54);
 }
 
-.image-container {
-    display: flex;
-    transform: translateX(0);
-    transition: transform 0.6s ease-in-out;
-    border-radius: 150px;
-    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
-}
+
 
 img {
     width: 380px;

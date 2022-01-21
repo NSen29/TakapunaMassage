@@ -10,15 +10,14 @@ export class pricing extends Component {
     clicky = (ev) => {
         console.log('Button has been clicked')
     }
-    render() {
+render() {
         return ( 
-          
             <div className="card text-center" >
-         
             <Container className= "gap">
             <Row>
             <Col md = { 6 }>
-            <Card body style = 
+         <Card
+        body style= 
             {
                 {
                     backgroundColor: '#e07006',
@@ -27,37 +26,34 @@ export class pricing extends Component {
                     borderStyle: 'groove'
                 }
             } inverse>
-            <CardImg top width="100%"
-            src={require('./Head, Neck and Shoulders.jpg')} alt="Head Neck and Shoulders"/>
+    <CardImg top width="100%"
+    src={require('./Head, Neck and Shoulders.jpg')} alt="Head Neck and Shoulders"/>
 
-            <CardBody body color = "light" >
-            <CardTitle tag = "h5"  > Head, Neck and Shoulders </CardTitle>      
-                                    <CardSubtitle>
-                                    <p className="mb-2 text-white" tag="h6" color='light'>
-             10 min session
-            for $20 / 20 min session
-            for $35 / 30 min session
-         for $50 
-            </p>
-            </CardSubtitle>    
-            <CardText>
-          <p className="mb-2 text-success" tag="h6" color='light'>
-             *Extra service types available
-            </p>
-        </CardText>     
-                                  
-        
-            </CardBody> 
-            </Card>  
-             </Col>
-            <Col md = { 6 }>
-        <Card body style= {
-                {
-                    textAlign: 'center',
-                    backgroundColor: '#212121',
-                    borderColor: '#d00000',
-                    borderWidth: 0,
-                    borderStyle: 'groove'
+    <CardBody body color = "light" >
+  <CardTitle tag = "h5"  > Head, Neck and Shoulders </CardTitle>      
+<CardSubtitle>
+<p className="mb-2 text-white" tag="h6" color='light'>
+10 min session
+for $20 / 20 min session
+ for $35 / 30 min session
+for $50   </p>
+     </CardSubtitle>    
+    <CardText>
+    <p className="mb-2 text-success" tag="h6" color='light'>
+     *Extra service types available
+     </p>
+  </CardText>     
+  </CardBody> 
+ </Card>  
+  </Col>
+  <Col md = { 6 }>
+<Card body style= {
+     {
+    textAlign: 'center',
+      backgroundColor: '#212121',
+     borderColor: '#d00000',
+     borderWidth: 0,
+     borderStyle: 'groove'
                 }
             } inverse >
             <CardImg top width = "100%"
@@ -83,7 +79,7 @@ export class pricing extends Component {
           <Col md = { 6 } >
             <Card body style = {
                 {
-                    backgroundColor: '#d00000',
+                    backgroundColor: '#8b0000',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
@@ -163,7 +159,7 @@ export class pricing extends Component {
 <Col md = { 6 }>
 <Card body  style = {
                 {
-                    backgroundColor: '#d00000',
+                    backgroundColor: '#8b0000',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
@@ -240,7 +236,7 @@ export class pricing extends Component {
                         <Col md = { 12 } >
             <Card body style = {
                 {
-                    backgroundColor: '#d00000',
+                    backgroundColor: '#8b0000',
                     borderColor: '#d00000',
                     borderWidth: 0,
                     borderStyle: 'groove'
