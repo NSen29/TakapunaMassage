@@ -22,7 +22,7 @@ export class Navbar extends Component {
                     <Button color="inherit" component={Link} to="/">Home</Button>
                     <Button color="inherit" component={Link} to="/booking">Book now</Button>
                     <Button color="inherit" component={Link} to="/about">About us</Button>
-                    <Button color="inherit" component={Link} to="/pricing">Pricing</Button>
+                    <Button color="inherit" component={Link} to="/pricing">Services & Pricing</Button>
                     <Button color="inherit" component={Link} to="/contact-us">Contact us</Button>
                 </Toolbar>
             </AppBar>

@@ -9,15 +9,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
-  margin: 0px auto 0 auto;
-  max-width: auto;
-}
-
 .footer-container {
   margin: 50px auto 0 auto;
   max-width: 1500px;
-  background-color: #c60000;
+  background-color: #7a0000;
+}
+
+.container {
+  margin: 0px auto 0 auto;
+  max-width: auto;
 }
 
 .nav-container {
@@ -25,32 +25,13 @@ body {
   background-color: black;
 }
 
-.head-image{
-  display: flex;
-  justify-content: center; 
-  align-items: center;
+.page-background{
+  background-image: url(./images/red.png);
+  background-repeat: repeat;
+  resize: both;
+  display: 'flex';
 }
 
-.text-on-image {
-  position:absolute;
-  right:20%;
-  left:20%;
-  bottom:15%;
-  color: red;
-  justify-content: center; 
-  align-items: center;
-}
-.head-text {
-  position:relative;
-}
-
-.footer {
-  position:absolute;
-  padding-bottom: 50px;
-  background-color: #c60000;
-  width:1500px;
-  font-size: larger;
-}
 
 .column {
   float: left;
