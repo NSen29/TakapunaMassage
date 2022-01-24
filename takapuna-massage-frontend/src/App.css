@@ -2,16 +2,16 @@ html,
 body {
   margin: 0;
   margin-top: 40px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .footer-container {
-  margin: 50px auto 0 auto;
-  max-width: 1500px;
+  margin: 0px auto 0 auto;
+  width: auto;
   background-color: #7a0000;
 }
 
@@ -21,17 +21,16 @@ body {
 }
 
 .nav-container {
-  color:white;
+  color: white;
   background-color: black;
 }
 
-.page-background{
+.page-background {
   background-image: url(./images/red.png);
   background-repeat: repeat;
   resize: both;
-  display: 'flex';
+  display: "flex";
 }
-
 
 .column {
   float: left;
@@ -47,8 +46,8 @@ body {
   text-align: center;
 }
 
-.row:after{
+.row:after {
   content: "";
   display: table;
-  clear: both
+  clear: both;
 }
