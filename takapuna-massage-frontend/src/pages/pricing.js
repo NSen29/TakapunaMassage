@@ -27,7 +27,7 @@ render() {
                 }
             } inverse>
     <CardImg top width="100%"
-    src={require('./Head, Neck and Shoulders.jpg')} alt="Head Neck and Shoulders"/>
+    src={require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Head, Neck and Shoulders.jpg')} alt="Head Neck and Shoulders"/>
 
     <CardBody body color = "light" >
   <CardTitle tag = "h5"  > Head, Neck and Shoulders </CardTitle>      
@@ -37,6 +37,7 @@ render() {
 for $20 / 20 min session
  for $35 / 30 min session
 for $50   </p>
+   
      </CardSubtitle>    
     <CardText>
     <p className="mb-2 text-success" tag="h6" color='light'>
@@ -57,7 +58,7 @@ for $50   </p>
                 }
             } inverse >
             <CardImg top width = "100%"
-            src = {require('./Upper or Lower Body.jpg')}/>
+            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Upper or Lower Body.jpg')}/>
             <CardBody>
             <CardTitle tag = "h5" >
           Upper/Lower Body </CardTitle>
@@ -86,7 +87,7 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('./Whole Body.jpg')} / >
+            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Whole Body.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Whole Body </CardTitle>
            <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -94,6 +95,7 @@ for $50   </p>
             for $70 / 60 min session
             for $85 / 90 min session
            for $125 / 120 min session for $160 
+        
          </CardSubtitle>
                                     <CardText className = "mb-2 text-success">
                                     *Extra service types available
@@ -112,7 +114,7 @@ for $50   </p>
                 }
             } inverse>
     <CardImg top width = "100%"
-     src = {require('./Reflexology.jpg')} / >
+     src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Reflexology.jpg')} / >
     <CardBody>
     <CardTitle tag="h5"> Reflexology Foot Massage </CardTitle>
     <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -139,7 +141,7 @@ for $50   </p>
                 }
             } inverse>
 <CardImg top width = "100%"
-            src = {require('./Whole Body with Reflexology.jpg')} / >
+            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Whole Body with Reflexology.jpg')} / >
 <CardBody>
     <CardTitle tag = "h5" >
      Whole Body with Reflexology </CardTitle>
@@ -166,7 +168,7 @@ for $50   </p>
                 }
             } inverse>
 <CardImg top width = "100%"
-            src = {require('./Additional Services.jpg')}/ >
+            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Additional Services.jpg')}/ >
     <CardBody>
 <CardTitle tag = "h5">
  Additional Services</CardTitle>
@@ -191,7 +193,7 @@ for $50   </p>
                 }
             }inverse >
             <CardImg top width = "100%"
-            src = {require('./Accupuncture.jpg')}/ >
+            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Accupuncture.jpg')}/ >
             <CardBody>
             <CardTitle tag = "h5"> Accupuncture Treatment </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -217,7 +219,7 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('./Moxibustion.jpg')} / >
+            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Moxibustion.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Moxibustion Treatment </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -243,7 +245,7 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('./Moxibustion.jpg')} / >
+            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Extra Service.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Extra Service Types </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -315,9 +317,12 @@ function HoverText2() {
        View More 
       </Button>
       <Collapse in={open}>
-        <div id="Upper Body">
-       <p>
-       ***********************************************************************************************************
+                <div id="Upper Body">
+                <br></br>
+                    <p>
+                        ********************************************************************************************************************************
+                        <br></br>
+                        <br></br>
 Therapeutic Massage can work wonders on the places you hold your tension. 
 
 Chronic stress, tension and pain don’t have to be a part of your life. 
@@ -329,25 +334,30 @@ Once released, the muscles are able to get proper blood flow and oxygenation.
                     This technique may leave you with a little soreness right afterwards, but you’re sure to feel better and more relaxed than you have in a long time.  
                     
                     </p>
+                    <br></br>
                     <p>
-                    ****************************************************************************************************************
-
-
+*******************************************************************************************************************************
+<br></br>
+<br></br>
 General Massage for relaxation and perfect for first timers. Reduces stress and tension. 
 
 It effects on circulation and nervous system. It stretches the ligaments, muscles and tendons keeping them supple and pliable. Main purpose of Swedish Massage is to move fluids, increase the oxygen flow in the blood and release toxins from the muscles. Promoting health and well being.
                     </p>
+                    <br></br>
                     <p>
-                    ****************************************************************************************************************
-                    
+                    **************************************************************************************************************************************
+                        <br></br>
+                        <br></br>
                     Sport Massage is typically used before, during, and after athletic events. The purpose of the massage is to prepare the athlete for peak performance, to drain away fatigue, to relieve swelling, to reduce muscle tension, to promote flexibility and to prevent injuries. The technique often involves a blend of traditional Swedish Massage Shiatsu and stretches specifically designed to treat athletes. Each sport uses muscles groups in a different way. Sport massage is designed to address those specific concerns and way differ according to the sport the athlete plays. It helps heal strained muscles and allow healthy ones to reach peak performance and maintain it while minimizing the risk of injury. 
                     </p>
+                    <br></br>
                     <p>
-                    ****************************************************************************************************************
-
-
+                    **********************************************************************************************************************************
+                    <br></br>
+                    <br></br>
                         Deep Tissue Massage is used to release chronic muscle tension through slower strokes and more direct deep pressure or friction applied across the grain of the muscles not with the grain. Deep tissue massage helps to break up and eliminate scar tissue. Deep tissue massage usually focuses on more specific areas and may cause some soreness during or right after the massage. However, if the massage is done correctly you should feel better than ever within a day or two.
-                        </p>
+                    </p>
+                    <br></br>
         </div>
             </Collapse>
          
