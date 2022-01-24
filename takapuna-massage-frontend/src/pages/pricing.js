@@ -27,7 +27,7 @@ render() {
                 }
             } inverse>
     <CardImg top width="100%"
-    src={require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Head, Neck and Shoulders.jpg')} alt="Head Neck and Shoulders"/>
+    src={require('../images/Head, Neck and Shoulders.jpg')} alt="Head Neck and Shoulders"/>
 
     <CardBody body color = "light" >
   <CardTitle tag = "h5"  > Head, Neck and Shoulders </CardTitle>      
@@ -58,7 +58,7 @@ for $50   </p>
                 }
             } inverse >
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Upper or Lower Body.jpg')}/>
+            src = {require('../images/Upper or Lower Body.jpg')}/>
             <CardBody>
             <CardTitle tag = "h5" >
           Upper/Lower Body </CardTitle>
@@ -87,7 +87,7 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Whole Body.jpg')} / >
+            src = {require('../images/Whole Body.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Whole Body </CardTitle>
            <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -97,8 +97,8 @@ for $50   </p>
            for $125 / 120 min session for $160 
         
          </CardSubtitle>
-                                    <CardText className = "mb-2 text-success">
-                                    *Extra service types available
+        <CardText className = "mb-2 text-success">
+        *Extra service types available
         </CardText>
         
     </CardBody>
@@ -114,7 +114,7 @@ for $50   </p>
                 }
             } inverse>
     <CardImg top width = "100%"
-     src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Reflexology.jpg')} / >
+     src = {require('../images/Reflexology.jpg')} / >
     <CardBody>
     <CardTitle tag="h5"> Reflexology Foot Massage </CardTitle>
     <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -141,7 +141,7 @@ for $50   </p>
                 }
             } inverse>
 <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Whole Body with Reflexology.jpg')} / >
+            src = {require('../images/Whole Body with Reflexology.jpg')} / >
 <CardBody>
     <CardTitle tag = "h5" >
      Whole Body with Reflexology </CardTitle>
@@ -168,7 +168,7 @@ for $50   </p>
                 }
             } inverse>
 <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Additional Services.jpg')}/ >
+            src = {require('../images/Additional Services.jpg')}/ >
     <CardBody>
 <CardTitle tag = "h5">
  Additional Services</CardTitle>
@@ -176,8 +176,8 @@ for $50   </p>
                                         Cupping for $30 / Gua Sha for $40 / Hot Stone for $30
                                         *Timings will vary for each service
      </CardSubtitle>
-                                    <CardText  className = "mb-2 text-success">
-                                        *Extra service types available
+                                    <CardText  >
+                                        
     </CardText>
     <HoverText1/>  
      </CardBody>
@@ -193,7 +193,7 @@ for $50   </p>
                 }
             }inverse >
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Accupuncture.jpg')}/ >
+            src = {require('../images/Accupuncture.jpg')}/ >
             <CardBody>
             <CardTitle tag = "h5"> Accupuncture Treatment </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -202,8 +202,8 @@ for $50   </p>
             for $55 / 45 min session
           for $70 / 60 min session for $85 
         </CardSubtitle>
-                                    <CardText  className = "mb-2 text-success">
-                                    *Extra service types available
+                                    <CardText  >
+                                   
       </CardText>
       <HoverText4 />  
 </CardBody>
@@ -219,7 +219,7 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Moxibustion.jpg')} / >
+            src = {require('../images/Moxibustion.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Moxibustion Treatment </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -228,8 +228,8 @@ for $50   </p>
             for $60 / 45 min session
           for $75 / 60 min session for $90
         </CardSubtitle>
-                                    <CardText  className = "mb-2 text-success">
-                                    *Extra service types available
+                                    <CardText  >
+                                    
       </CardText>
       <HoverText5 />  
 </CardBody>
@@ -245,12 +245,12 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Extra Service.jpg')} / >
+            src = {require('../images/Extra Service.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Extra Service Types </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
                                         Therapeutic      /      Swedish/Relaxing
-                                        /     Sport    /     Deep Tissue
+                                        /     Sport    /     Deep Tissue  (+$10)
         </CardSubtitle>
                                     <CardText>
                                         
