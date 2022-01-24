@@ -27,7 +27,7 @@ render() {
                 }
             } inverse>
     <CardImg top width="100%"
-    src={require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Head, Neck and Shoulders.jpg')} alt="Head Neck and Shoulders"/>
+    src={require('../images/Head, Neck and Shoulders.jpg')} alt="Head Neck and Shoulders"/>
 
     <CardBody body color = "light" >
   <CardTitle tag = "h5"  > Head, Neck and Shoulders </CardTitle>      
@@ -58,7 +58,7 @@ for $50   </p>
                 }
             } inverse >
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Upper or Lower Body.jpg')}/>
+            src = {require('../images/Upper or Lower Body.jpg')}/>
             <CardBody>
             <CardTitle tag = "h5" >
           Upper/Lower Body </CardTitle>
@@ -87,7 +87,7 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Whole Body.jpg')} / >
+            src = {require('../images/Whole Body.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Whole Body </CardTitle>
            <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -114,7 +114,7 @@ for $50   </p>
                 }
             } inverse>
     <CardImg top width = "100%"
-     src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Reflexology.jpg')} / >
+     src = {require('../images/Reflexology.jpg')} / >
     <CardBody>
     <CardTitle tag="h5"> Reflexology Foot Massage </CardTitle>
     <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -141,7 +141,7 @@ for $50   </p>
                 }
             } inverse>
 <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Whole Body with Reflexology.jpg')} / >
+            src = {require('../images/Whole Body with Reflexology.jpg')} / >
 <CardBody>
     <CardTitle tag = "h5" >
      Whole Body with Reflexology </CardTitle>
@@ -168,7 +168,7 @@ for $50   </p>
                 }
             } inverse>
 <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Additional Services.jpg')}/ >
+            src = {require('../images/Additional Services.jpg')}/ >
     <CardBody>
 <CardTitle tag = "h5">
  Additional Services</CardTitle>
@@ -193,7 +193,7 @@ for $50   </p>
                 }
             }inverse >
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Accupuncture.jpg')}/ >
+            src = {require('../images/Accupuncture.jpg')}/ >
             <CardBody>
             <CardTitle tag = "h5"> Accupuncture Treatment </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -219,7 +219,7 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Moxibustion.jpg')} / >
+            src = {require('../images/Moxibustion.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Moxibustion Treatment </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
@@ -245,7 +245,7 @@ for $50   </p>
                 }
             } inverse>
             <CardImg top width = "100%"
-            src = {require('/Users/noelsen/Documents/GitHub/TakapunaMassage/takapuna-massage-frontend/src/images/Extra Service.jpg')} / >
+            src = {require('../images/Extra Service.jpg')} / >
             <CardBody>
             <CardTitle tag = "h5"> Extra Service Types </CardTitle>
         <CardSubtitle className = "mb-2 text-white" tag = "h6" >
