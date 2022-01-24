@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Button from "@material-ui/core/Button";
 import Link from "react-router-dom/Link";
@@ -28,7 +28,7 @@ export class home extends Component {
             swipeable={true}
             emulateTouch={true}
             showStatus={false}
-            width={"1000px"}
+            width={"950px"}
           >
             <div>
               <div className="head-text">
@@ -64,9 +64,17 @@ export class home extends Component {
             justifyContent: "center",
             alignItems: "center",
           }}
-          className="picture-text"
         >
           <img src={storefront} alt="store front" width="600px" />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          className="picture-text"
+        >
           <h2 style={{ margin: "5%" }}>
             Takapuna Therapeutic Massage is a Professional Traditional Massage
             shop in Takapuna North Shore. We also sell massage products such as

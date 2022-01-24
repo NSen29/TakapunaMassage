@@ -29,4 +29,6 @@
 .picture-text {
   padding-left: 5%;
   padding-right: 5%;
+  align-content: center;
+  text-align: center;
 }
