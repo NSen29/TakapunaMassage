@@ -6,7 +6,7 @@ import home from './pages/home';
 import booking from './pages/booking';
 import about from './pages/about';
 import pricing from './pages/pricing';
-import contact from './pages/contact';
+import Contact from './pages/contact';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -23,7 +23,7 @@ export class App extends Component {
               <Route exact path = "/booking" component={booking}/>
               <Route exact path = "/about" component={about}/>
               <Route exact path = "/pricing" component={pricing}/>
-              <Route exact path = "/contact-us" component={contact}/>
+              <Route exact path = "/contact-us" component={Contact}/>
             </Switch>
           </div>
         </Router>
