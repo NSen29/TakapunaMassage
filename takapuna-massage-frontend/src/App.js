@@ -7,19 +7,35 @@ import booking from './pages/booking';
 import about from './pages/about';
 import pricing from './pages/pricing';
 import contact from './pages/contact';
-import {Box, Button} from '@material-ui/core'
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-    <h1> React Material UI | Layout | Box </h1>
-    <Box component="span" clone style={{color:'red'}}>
-    <Button>Testing</Button>
-    </Box>
-    </div>
-  );
+export class App extends Component {
+  render() {
+    return (
+      <div className = "App">
+        <Router>
+          <Navbar/>
+          <div className="container">
+            <Switch>
+              <Route exact path = "/" component={home}/>
+              <Route exact path = "/booking" component={booking}/>
+              <Route exact path = "/about" component={about}/>
+              <Route exact path = "/pricing" component={pricing}/>
+              <Route exact path = "/contact-us" component={contact}/>
+            </Switch>
+          </div>
+        </Router>
+      
+        <div className= "footer-container">
+          <div className="footer">
+            <Footer/>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App
