@@ -28,7 +28,7 @@ export class home extends Component {
             swipeable={true}
             emulateTouch={true}
             showStatus={false}
-            width={"900px"}
+            width={"925px"}
           >
             <div>
               <div className="head-text">
