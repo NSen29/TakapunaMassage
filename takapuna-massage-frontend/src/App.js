@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import home from "./pages/home";
 import booking from "./pages/booking";
 import about from "./pages/about";

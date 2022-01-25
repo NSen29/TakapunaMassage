@@ -22,6 +22,7 @@ render() {
                     borderColor: '#f33e3e',
                     borderWidth: 0,
                     borderStyle: 'groove'
+                    
                 }
             } inverse>
     <CardImg top width="100%"
