@@ -43,7 +43,8 @@ export class home extends Component {
                   <Button
                     style={{
                       borderRadius: 35,
-                      backgroundColor: "#FFFFFF",
+                      borderColor: "#91b2c7",
+                      borderWidth: 30,
                       fontWeight: "bold",
                     }}
                     color="black"

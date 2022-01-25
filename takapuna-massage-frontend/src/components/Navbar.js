@@ -12,7 +12,7 @@ export class Navbar extends Component {
   render() {
     return (
       <AppBar>
-        <Toolbar className="nav-container">
+        <Toolbar className="nav-container" >
           <IconButton edge="start" color="inherit">
             <Button color="inherit" component={Link} to="/">
               <img

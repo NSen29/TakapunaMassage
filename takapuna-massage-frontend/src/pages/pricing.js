@@ -93,7 +93,8 @@ for $50   </p>
             45 min session
             for $70 / 60 min session
             for $85 / 90 min session
-           for $125 / 120 min session for $160 
+       
+           for $125  /  <br></br> 120 min session for $160 
         
          </CardSubtitle>
         <CardText className = "mb-2 text-success">
@@ -119,7 +120,7 @@ for $50   </p>
     <CardSubtitle className = "mb-2 text-white" tag = "h6" >
             30 min session
             for $50 / 45 min session
-            for $75 / 60 min session for 
+            for $75 / 60 min session 
          for $90  
          
     </CardSubtitle>
@@ -173,7 +174,8 @@ for $50   </p>
  Additional Services</CardTitle>
                                     <CardSubtitle className="mb-2 text-white" tag="h6" text={{ color: 'white' }}>
                                         Cupping for $30 / Gua Sha for $40 / Hot Stone for $30
-                                        *Timings will vary for each service
+                                        <br></br>
+                                        *Timings will vary for each service (Please contact us first)
      </CardSubtitle>
                                     <CardText  >
                                         

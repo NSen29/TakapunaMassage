@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 import React, { useState, } from 'react';
+import '../styles/price.css';
 
 export function HoverText5() {
     const [open, setOpen] = useState(false);
@@ -169,7 +170,9 @@ export function HoverText1() {
       <Collapse in={open}>
         <div id="Upper Body">
        <br></br>
-
+       **********************************************************************
+                        <br></br>
+                        <br></br>
 
 Hot stone massage is a variation on classic massage therapy. Heated smooth, flat stones are placed on key points on the body. The massage therapist may also hold the stones and use them to massage certain areas of the body. The heat warms and relaxes the muscles, which allows the therapist to apply deeper pressure, if desired. The warmth of the hot stones improves circulation and calms the nervous system. People also get hot stone massage for a variety of health conditions:
 
@@ -182,7 +185,17 @@ Osteoarthritis and arthritis pain
 Stress, anxiety and tension
 
 Insomnia
-
+            <br></br>
+            <br></br>
+**********************************************************************
+                        <br></br>
+            <br></br>
+            
+Cupping or Gua Sha refers to an entire body service. This is accomplished by rubbing the muscles with long gliding strokes in the direction of blood returning to the heart.
+ 
+ When injuries occur deep in the muscle, bleeding often occurs causing deep bruises. There will also be edema in the area involving the coagulation of sticky proteins. The combining presence of these elements usually results in stagnation of circulation to the area - resulting in pain, dysfunction, and chronic conditions.
+ 
+ The vacuum formed by Cupping draws up the old non-circulating stagnant blood and sticky fluids from the area, bringing them up to the surface and away from the injury so that healthy free circulation can be restored to the affected area, thus creating space for oxygen, living cells and nutrients for faster recovery.
  
         </div>
             </Collapse>
