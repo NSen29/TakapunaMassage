@@ -7,7 +7,7 @@ import Link from "react-router-dom/Link";
 import banner from "../images/homebanner.jpeg";
 import storefront from "../images/storefront.png";
 
-import "../components/Home.css";
+import "../styles/Home.css";
 
 export class home extends Component {
   render() {
@@ -36,9 +36,10 @@ export class home extends Component {
                   <img src={banner} alt="banner" />
                 </div>
                 <div className="text-on-image">
+                  <br />
                   <h1>
-                    Treat yourself to a massage, free your mind, calm your body
-                    and soul
+                    Treat yourself to a massage, free your mind,
+                    <br /> calm your body and soul
                   </h1>
                   <Button
                     style={{
@@ -46,6 +47,7 @@ export class home extends Component {
                       borderColor: "#91b2c7",
                       borderWidth: 30,
                       fontWeight: "bold",
+                      color: "white",
                     }}
                     color="black"
                     component={Link}

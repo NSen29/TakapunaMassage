@@ -1,131 +1,123 @@
 :root {
-    --primary: rgb(243, 62, 62);
-    --secondary: rgb(224, 112, 6);
-    --dark: #212121;
-    --light: #F3F3F3;
-    --radius: 0.2rem;
+  --primary: rgb(243, 62, 62);
+  --secondary: rgb(224, 112, 6);
+  --dark: #212121;
+  --light: #f3f3f3;
+  --radius: 0.2rem;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
 .Container .gap {
-    width: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .pricing .Card {
-    width: 500px;
-    overflow: hidden;
-    box-shadow: 0px 0px 15px -5px;
-    transition: 0.3s;
-    animation: ease-in;
-    gap: 32px;
+  width: 500px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+  gap: 32px;
 }
 
 .pricing .Card:hover {
-    transform: scale(1: 1);
+  transform: scale(1: 1);
 }
 
-
-
 .service-content {
-    margin: 16px;
-    margin-top: 0.5rem;
+  margin: 16px;
+  margin-top: 0.5rem;
 }
 
 .pricing h3,
 .pricing p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .CardTitle {
-    margin-bottom: 8px;
-    text-align: center;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .pricing .Button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-
 .pricing .Button Button:hover {
-    background: white
+  background: white;
 }
 
 .CardSubtitle {
-    text-transform: uppercase;
-    color: orangered;
-    text-decoration: none;
-    font-weight: bold;
+  text-transform: uppercase;
+  color: orangered;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.gap{
-    margin-top:0px;
-    margin-right: 0px;
+.gap {
+  margin-top: 0px;
+  margin-right: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap");
 
 .pricing Body {
-    
-    font-family: 'Noto Sans', sans-serif;
-    display: flex;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
 
-    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
-    justify-content: center;
-    
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+  justify-content: center;
 
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
-
-
-.pricing  img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+.pricing img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 .pricing .buttons-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
-    background-color: rgb(105, 107, 106);
-    color: rgb(214, 7, 7);
-    outline-color: rgb(202, 5, 5) ;
-    outline-width: medium;
-    border: none;
-    font-size: 17pt;
-    padding: 0.9rem;
-    cursor: pointer;
-    width: 30%;
-    border-radius: 30px;
+  background-color: rgb(105, 107, 106);
+  color: rgb(214, 7, 7);
+  outline-color: rgb(202, 5, 5);
+  outline-width: medium;
+  border: none;
+  font-size: 17pt;
+  padding: 0.9rem;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 30px;
 }
 
-.pricing  .btn:hover {
-    opacity: 0.9;
+.pricing .btn:hover {
+  opacity: 0.9;
 }
 
 .pricing .btn:focus {
-    outline: none;
+  outline: none;
 }
