@@ -1,0 +1,54 @@
+.head-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@700&display=swap");
+.text-on-image {
+  font-family: "Oxygen", sans-serif;
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  bottom: 5%;
+  color: #97b9ce;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+.head-text {
+  position: relative;
+}
+
+.footer {
+  margin-top: 0px;
+  position: absolute;
+  padding-bottom: 50px;
+  background-color: #c60000;
+  width: 1500px;
+  font-size: larger;
+}
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+.picture-text {
+  font-family: "Belleza", sans-serif;
+  font-style: italic;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-content: center;
+  text-align: center;
+}
+
+.home .btn {
+  background-color: rgb(105, 107, 106);
+  color: rgb(214, 7, 7);
+  outline-color: rgb(202, 5, 5);
+  outline-width: medium;
+  border: none;
+  font-size: 17pt;
+  padding: 0.9rem;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 30px;
+}
