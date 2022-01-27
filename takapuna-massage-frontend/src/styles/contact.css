@@ -1,0 +1,11 @@
+.box1 {text-align:center; 
+    font-style: oblique;}
+  .hed1 {font-size: 100px; 
+    font-style: italic;}
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap");
+
+
+.contact p{
+  display: flex;
+  justify-content: center;
+}

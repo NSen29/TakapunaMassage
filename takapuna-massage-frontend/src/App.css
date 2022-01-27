@@ -7,7 +7,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
+
+  padding: 0;
+  background:url(./images/PinkFlower.jpg) left;
+
+  min-width: 100vh;
+  width: 100;
+  max-width: 100%;
+
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+
+
 }
+body{
+
+  padding:0;
+  background:url(./images/PinkFlower2.jpg) right;
+  margin: 0;
+  min-width: 100vh;
+  width: 100;
+  max-width: 100%;
+
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  padding: 0;
+}
+
 
 .footer-container {
   margin: 0px auto 0 auto;
@@ -28,10 +57,12 @@ body {
 }
 
 .page-background {
-  background-image: url(./images/red.png);
-  background-repeat: repeat;
+  background:url(./images/r3d.png);
+  overflow: auto;
   resize: both;
   display: "flex";
+  
+
 }
 
 .column {

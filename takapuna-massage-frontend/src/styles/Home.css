@@ -5,17 +5,16 @@
   object-fit: cover;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@700&display=swap");
-.text-on-image {
-  font-family: "Oxygen", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Courgette&display=swap');.text-on-image {
+  font-family: "Courgette", sans-serif;
   position: absolute;
-  right: 20%;
-  left: 20%;
+  right: 5%;
+  left: 5%;
   bottom: 5%;
-  color: #97b9ce;
+  color: #ec9d0a;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   object-fit: cover;
 }
 .head-text {
@@ -38,6 +37,7 @@
   padding-right: 5%;
   align-content: center;
   text-align: center;
+  color: #ec9d0a;
 }
 
 .home .btn {
@@ -52,3 +52,4 @@
   width: 30%;
   border-radius: 30px;
 }
+

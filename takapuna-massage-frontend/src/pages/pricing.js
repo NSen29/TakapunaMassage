@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/price.css";
+
 import {
   Card,
   CardImg,
@@ -25,7 +26,7 @@ export class pricing extends Component {
   };
   render() {
     return (
-      <div className="card text-center ">
+      <div className="card text-center " style = {{backgroundColor: 'black'}}>
         <Container className="gap">
           <Row>
             <Col md={6}>
