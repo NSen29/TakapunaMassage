@@ -18,7 +18,7 @@ const BlueTextTypography = withStyles({
 export default function contact() {
   return (
     <div className= "header" style={{ textAlign: 'center',  borderWidth: 15, borderColor: '#8b0000', } }>
-      <h1 className="hed1" ></h1>
+      
     
     <div className="textbox" style={{ textAlign: 'center', display:'flex', justifyContent: 'left', borderWidth: 15, borderColor: '#8b0000'  } }>
     <div className="map" style={{ display: 'flex', justifyContent: 'right', flexDirection: 'center',  borderWidth: 15, borderColor: '#8b0000'} }>
@@ -71,13 +71,28 @@ export default function contact() {
         </div>
        
       <div>
-        <h3
-        style={{color: "#e07006"}}>
-          Car Park Location
-        </h3>
-      <img src={CarPark} alt="Car Park" width="px" />
+      
 
         </div>
+        <Card style={{ borderWidth: 10, borderColor: '#8b0000', backgroundColor: 'black' }} sx={{ mx: 10}}>
+        <CardContent className = "email" style={{ borderWidth: 16, borderColor: '#8b0000' }} >
+        <img src={CarPark} alt="Car Park" width="px" />
+          <BlueTextTypography variant="body4" color="text.tertiary">
+          <h3
+        style={{color: "#e07006",
+          textAlign: 'center', backgroundColor: "#212121", borderColor: '#8b0000',
+          borderWidth: 25, borderStyle: 'groove'
+          
+        }}>
+          Car Park Location
+        </h3>
+     
+          
+          </BlueTextTypography>
+        
+        </CardContent>
+   
+            </Card>
 
 </div>
   );
