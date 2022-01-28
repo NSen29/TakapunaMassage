@@ -44,12 +44,11 @@ export class home extends Component {
                   <Button
                     style={{
                       borderRadius: 35,
-                      borderColor: "#91b2c7",
                       borderWidth: 30,
                       fontWeight: "bold",
-                      color: "white",
+                      color: "black"
                     }}
-                    color="black"
+                    variant="contained"
                     component={Link}
                     to="/booking"
                   >
@@ -66,12 +65,11 @@ export class home extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-          
           }}
         >
           <img src={storefront} alt="store front" width="600px" />
         </div>
-        <img src="../images/red.png" id="bg" alt=""/>
+        <img src="../images/red.png" id="bg" alt="" />
         <div
           style={{
             display: "flex",

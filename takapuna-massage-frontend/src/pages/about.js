@@ -5,7 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 import {
   Card,
   CardImg,
-  CardText,
   CardBody,
   CardTitle,
   CardSubtitle,
@@ -72,7 +71,7 @@ export class about extends Component {
           </Carousel>
         </div>
 
-        <div className="card text-center ">
+        <div className="card text-center " style = {{backgroundColor: 'black'}}>
           <div
             style={{
               display: "flex",

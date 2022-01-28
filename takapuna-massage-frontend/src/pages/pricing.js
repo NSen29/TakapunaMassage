@@ -26,7 +26,7 @@ export class pricing extends Component {
   };
   render() {
     return (
-      <div className="card text-center " style = {{backgroundColor: 'black'}}>
+      <div className="card text-center " style={{ backgroundColor: "black" }}>
         <Container className="gap">
           <Row>
             <Col md={6}>
