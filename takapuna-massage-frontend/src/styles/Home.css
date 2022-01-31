@@ -3,6 +3,11 @@
   justify-content: center;
   align-items: center;
   object-fit: cover;
+ 
+
+
+
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Courgette&display=swap');.text-on-image {
@@ -40,7 +45,7 @@
   color: #FFF;
 }
 
-.home .btn {
+.home .text-on-image .btn {
   background-color: rgb(105, 107, 106);
   color: rgb(214, 7, 7);
   outline-color: rgb(202, 5, 5);

@@ -14,8 +14,9 @@ export class Navbar extends Component {
       <div>
         <AppBar>
           <Toolbar className="nav-container">
-            <IconButton edge="start" color="inherit">
-              <Button color="inherit" component={Link} to="/">
+            <IconButton edge="start" color= "orange">
+              <Button color="inherit"
+                component={Link} to="/">
                 <img
                   classname="icon"
                   src={logo}

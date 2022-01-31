@@ -33,6 +33,7 @@ export class about extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            
           }}
         >
           <Carousel
@@ -71,7 +72,7 @@ export class about extends Component {
           </Carousel>
         </div>
 
-        <div className="card text-center " style = {{backgroundColor: 'black'}}>
+        <div className="card text-center " style = {{backgroundColor: 'black' ,color : "#e07006", borderWidth: 28, borderColor: "black"}}>
           <div
             style={{
               display: "flex",
@@ -79,18 +80,20 @@ export class about extends Component {
               alignItems: "center",
             }}
           >
-            <h1>Employees</h1>
+            <h1 >Employees</h1>
           </div>
           <Container className="gap">
             <Row>
-              <Col md={6}>
+              <Col md={3}>
                 <Card
                   body
                   style={{
-                    backgroundColor: "#e07006",
-                    borderColor: "#f33e3e",
-                    borderWidth: 0,
+                    backgroundColor: "#8b0000",
+                    borderColor: "#e07006",
+                    borderWidth: 6,
                     borderStyle: "groove",
+                    position: "relative",
+                    display: "flex",
                   }}
                   inverse
                 >
@@ -99,10 +102,13 @@ export class about extends Component {
                     width="100%"
                     src={require("../images/Roy.png")}
                     alt="Roy"
+                    style = {{borderRadius: 45,    borderWidth: 6,
+                      borderStyle: "solid"}}
                   />
 
                   <CardBody body color="light">
-                    <CardTitle tag="h5">Roy Hsu</CardTitle>
+                    <CardTitle tag="h5"
+                      style={{ color: "#e07006" }}>Roy Hsu</CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
                       More than 20 years of experience in professional
                       therapeutic massage. <br />
@@ -117,14 +123,16 @@ export class about extends Component {
                 </Card>
               </Col>
 
-              <Col md={6}>
+              <Col md={3}>
                 <Card
                   body
                   style={{
                     backgroundColor: "#8b0000",
-                    borderColor: "#d00000",
-                    borderWidth: 0,
+                    borderColor: "#e07006",
+                    borderWidth: 6,
                     borderStyle: "groove",
+                    position: "relative",
+                    display: "flex",
                   }}
                   inverse
                 >
@@ -132,9 +140,11 @@ export class about extends Component {
                     top
                     width="100%"
                     src={require("../images/Na Lan.png")}
+                    style = {{borderRadius: 45,    borderWidth: 6,
+                      borderStyle: "solid",}}
                   />
                   <CardBody>
-                    <CardTitle tag="h5">Na Lan</CardTitle>
+                    <CardTitle tag="h5" style={{ color: "#e07006" }}>Na Lan</CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
                       International Licensed Acupuncture Therapist. <br />
                       Six-year licensed acupuncturist and physiotherapist in
@@ -150,15 +160,17 @@ export class about extends Component {
                 </Card>
               </Col>
 
-              <Col md={6}>
+              <Col md={3}>
                 <Card
                   body
                   style={{
                     textAlign: "center",
-                    backgroundColor: "#212121",
-                    borderColor: "#d00000",
-                    borderWidth: 0,
+                    backgroundColor: "#8b0000",
+                    borderColor: "#e07006",
+                    borderWidth: 6,
                     borderStyle: "groove",
+                    position: "relative",
+                    display: "flex",
                   }}
                   inverse
                 >
@@ -166,9 +178,11 @@ export class about extends Component {
                     top
                     width="100%"
                     src={require("../images/Vivian.png")}
+                    style = {{borderRadius: 45,    borderWidth: 6,
+                      borderStyle: "solid",}}
                   />
                   <CardBody>
-                    <CardTitle tag="h5">Vivian</CardTitle>
+                    <CardTitle tag="h5" style={{ color: "#e07006" }}>Vivian</CardTitle>
                     <CardSubtitle className=" text-white">
                       More than 5 years of experience in professional
                       therapeutic massage. <br />
@@ -181,14 +195,16 @@ export class about extends Component {
                 </Card>
               </Col>
 
-              <Col md={6}>
+              <Col md={3}>
                 <Card
                   body
                   style={{
-                    backgroundColor: "#e07006",
-                    borderColor: "#d00000",
-                    borderWidth: 0,
+                    backgroundColor: "#8b0000",
+                    borderColor: "#e07006",
+                    borderWidth: 6,
                     borderStyle: "groove",
+                    position: "relative",
+                    display: "flex",
                   }}
                   inverse
                 >
@@ -196,9 +212,11 @@ export class about extends Component {
                     top
                     width="100%"
                     src={require("../images/Sunny.png")}
+                    style = {{borderRadius: 45,    borderWidth: 6,
+                      borderStyle: "solid",}}
                   />
                   <CardBody>
-                    <CardTitle tag="h5"> Sunny </CardTitle>
+                    <CardTitle tag="h5" style={{ color: "#e07006" }} > Sunny </CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
                       More than 6 years of experience in professional
                       therapeutic massage. <br />

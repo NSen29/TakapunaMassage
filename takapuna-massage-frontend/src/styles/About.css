@@ -74,3 +74,8 @@
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
 }
+
+.card text-center .h1 {
+ color: var(--secondary);
+}
+

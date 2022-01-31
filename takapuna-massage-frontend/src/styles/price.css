@@ -30,9 +30,7 @@
   gap: 32px;
 }
 
-.pricing .Card:hover {
-  transform: scale(1: 1);
-}
+
 
 .service-content {
   margin: 16px;
@@ -113,10 +111,14 @@
   border-radius: 30px;
 }
 
-.pricing .btn:hover {
+.PriceButtons .btn:hover {
   opacity: 0.9;
+  color:   var(--secondary);
+  transition: all 0.3s;
+  position: relative;
 }
 
-.pricing .btn:focus {
-  outline: none;
+.PriceButtons .btn:focus {
+  outline:  10;
 }
+

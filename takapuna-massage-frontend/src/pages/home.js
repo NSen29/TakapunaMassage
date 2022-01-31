@@ -18,6 +18,7 @@ export class home extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+           
           }}
         >
           <Carousel
@@ -47,6 +48,7 @@ export class home extends Component {
                       borderWidth: 30,
                       fontWeight: "bold",
                       color: "black"
+                      
                     }}
                     variant="contained"
                     component={Link}

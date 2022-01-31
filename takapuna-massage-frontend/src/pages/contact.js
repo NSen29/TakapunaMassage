@@ -64,9 +64,9 @@ export default function contact() {
                   }}
                 >
                   <h2 style={{ color: orange }}> Contact Details</h2>
-                  <p>TAKAPUNAMASSAGE106@GMAIL.COM</p>
-                  <p>09-486 0666</p>
-                  <p>106 HURSTMERE ROAD TAKAPUNA 0622 AUCKLAND</p>
+                  <p style={{ color: 'white'}}>TAKAPUNAMASSAGE106@GMAIL.COM</p>
+                  <p style={{ color: 'white'}}>09-486 0666</p>
+                  <p style={{ color: 'white'}}>106 HURSTMERE ROAD TAKAPUNA 0622 AUCKLAND</p>
                 </div>
               </BlueTextTypography>
             </CardContent>
@@ -84,21 +84,27 @@ export default function contact() {
                   }}
                 >
                   <h1>Opening Hours</h1>
-                  <p>Mon: 10:00AM - 07:00PM</p>
-                  <p>Tues: 10:00AM - 07:00PM</p>
-                  <p>Wed: 10:00AM - 07:00PM</p>
-                  <p>Thur: 10:00AM - 07:00PM</p>
-                  <p>Fri: 10:00AM - 07:00PM</p>
-                  <p>Sat: 10:00AM - 07:00PM</p>
-                  <p>Sun: 10:00AM - 07:00PM</p>
-                  <p>( After hour appointments available )</p>
+                  <p style={{ color: 'white'}}>Mon: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white'}}>Tues: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white'}}>Wed: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white'}}>Thur: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white'}}>Fri: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white'}}>Sat: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white'}}>Sun: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white'}}>( After hour appointments available )</p>
                 </div>
               </BlueTextTypography>
             </CardContent>
           </Card>
         </div>
-
-        <MapContainer className="MapContainer" />
+        <div style={{
+        position: "relative",
+        height: "500px"
+      }}
+>
+      <MapContainer className="MapContainer" />
+      </div>
+        
       </div>
 
       <Card
@@ -130,6 +136,8 @@ export default function contact() {
           </BlueTextTypography>
         </CardContent>
       </Card>
+
+    
     </div>
   );
 }
