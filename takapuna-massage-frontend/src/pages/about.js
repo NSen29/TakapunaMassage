@@ -92,8 +92,10 @@ export class about extends Component {
                     borderColor: "#e07006",
                     borderWidth: 6,
                     borderStyle: "groove",
+                    borderRadius: 25,
                     position: "relative",
                     display: "flex",
+                    
                   }}
                   inverse
                 >
@@ -110,6 +112,7 @@ export class about extends Component {
                     <CardTitle tag="h5"
                       style={{ color: "#e07006" }}>Roy Hsu</CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
+                      <br></br>
                       More than 20 years of experience in professional
                       therapeutic massage. <br />
                       Traditional Chinese Therapy and Arcmatherapy, Original
@@ -131,6 +134,7 @@ export class about extends Component {
                     borderColor: "#e07006",
                     borderWidth: 6,
                     borderStyle: "groove",
+                    borderRadius: 25,
                     position: "relative",
                     display: "flex",
                   }}
@@ -146,6 +150,7 @@ export class about extends Component {
                   <CardBody>
                     <CardTitle tag="h5" style={{ color: "#e07006" }}>Na Lan</CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
+                    <br></br>
                       International Licensed Acupuncture Therapist. <br />
                       Six-year licensed acupuncturist and physiotherapist in
                       China Medical Clinic. <br />
@@ -169,6 +174,7 @@ export class about extends Component {
                     borderColor: "#e07006",
                     borderWidth: 6,
                     borderStyle: "groove",
+                    borderRadius: 25,
                     position: "relative",
                     display: "flex",
                   }}
@@ -184,6 +190,7 @@ export class about extends Component {
                   <CardBody>
                     <CardTitle tag="h5" style={{ color: "#e07006" }}>Vivian</CardTitle>
                     <CardSubtitle className=" text-white">
+                    <br></br>
                       More than 5 years of experience in professional
                       therapeutic massage. <br />
                       Traditional Chinsese Therapy and Association, Relaxation
@@ -203,6 +210,7 @@ export class about extends Component {
                     borderColor: "#e07006",
                     borderWidth: 6,
                     borderStyle: "groove",
+                    borderRadius: 25,
                     position: "relative",
                     display: "flex",
                   }}
@@ -218,6 +226,7 @@ export class about extends Component {
                   <CardBody>
                     <CardTitle tag="h5" style={{ color: "#e07006" }} > Sunny </CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
+                    <br></br>
                       More than 6 years of experience in professional
                       therapeutic massage. <br />
                       Traditional Chinsese Therapy and Association, Relaxation

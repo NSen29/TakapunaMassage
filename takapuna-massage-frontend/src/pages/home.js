@@ -18,6 +18,7 @@ export class home extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            
            
           }}
         >
