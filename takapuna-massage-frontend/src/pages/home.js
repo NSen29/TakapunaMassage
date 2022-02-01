@@ -5,6 +5,7 @@ import Button from "@material-ui/core/Button";
 import Link from "react-router-dom/Link";
 
 import banner from "../images/homebanner.jpeg";
+import banner2 from "../images/banner2.png";
 import storefront from "../images/storefront.png";
 
 import "../styles/Home.css";
@@ -18,19 +19,18 @@ export class home extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            
-           
           }}
         >
           <Carousel
             showArrows={true}
-            dynamicHeight={false}
+            dynamicHeight={true}
             infiniteLoop={true}
             autoPlay={true}
             swipeable={true}
             emulateTouch={true}
             showStatus={false}
-            width={"925px"}
+            width={"1300px"}
+            interval={"5000"}
           >
             <div>
               <div className="head-text">
@@ -48,14 +48,41 @@ export class home extends Component {
                       borderRadius: 35,
                       borderWidth: 30,
                       fontWeight: "bold",
-                      color: "black"
-                      
+                      color: "black",
                     }}
                     variant="contained"
                     component={Link}
                     to="/booking"
                   >
                     Book now
+                  </Button>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="head-text">
+                <div className="head-image">
+                  <img src={banner2} alt="banner2" />
+                </div>
+                <div className="text-on-image">
+                  <br />
+                  <h1>
+                    Learn more about our <br />
+                    services we provide
+                  </h1>
+                  <Button
+                    style={{
+                      borderRadius: 35,
+                      borderWidth: 30,
+                      fontWeight: "bold",
+                      color: "black",
+                    }}
+                    variant="contained"
+                    component={Link}
+                    to="/pricing"
+                  >
+                    Services & Pricing
                   </Button>
                   <p></p>
                 </div>

@@ -14,8 +14,8 @@ export class Footer extends Component {
           alignItems: "center",
         }}
       >
-        <div className="column left" >
-          <h2 style={{ color: '#8b0000' }}>Takapuna Therapeutic Massage</h2>
+        <div className="column left footer-container" >
+          <h2 style={{ color: '#ff4500' }}>Takapuna Therapeutic Massage</h2>
           <p style={{ color: 'whitesmoke' }}>106 Hurstmere Road, Takapuna, Auckland</p>
           <p style={{ color: 'whitesmoke' }}>Phone: 09-4860666</p>
           <p style={{ color: 'whitesmoke' }}>takapunamassage106@gmail.com</p>

@@ -33,7 +33,6 @@ export class about extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            
           }}
         >
           <Carousel
@@ -72,7 +71,15 @@ export class about extends Component {
           </Carousel>
         </div>
 
-        <div className="card text-center " style = {{backgroundColor: 'black' ,color : "#e07006", borderWidth: 28, borderColor: "black"}}>
+        <div
+          className="card text-center "
+          style={{
+            backgroundColor: "black",
+            color: "#e07006",
+            borderWidth: 28,
+            borderColor: "black",
+          }}
+        >
           <div
             style={{
               display: "flex",
@@ -80,7 +87,7 @@ export class about extends Component {
               alignItems: "center",
             }}
           >
-            <h1 >Employees</h1>
+            <h1>Employees</h1>
           </div>
           <Container className="gap">
             <Row>
@@ -95,7 +102,6 @@ export class about extends Component {
                     borderRadius: 25,
                     position: "relative",
                     display: "flex",
-                    
                   }}
                   inverse
                 >
@@ -104,13 +110,17 @@ export class about extends Component {
                     width="100%"
                     src={require("../images/Roy.png")}
                     alt="Roy"
-                    style = {{borderRadius: 45,    borderWidth: 6,
-                      borderStyle: "solid"}}
+                    style={{
+                      borderRadius: 45,
+                      borderWidth: 6,
+                      borderStyle: "solid",
+                    }}
                   />
 
                   <CardBody body color="light">
-                    <CardTitle tag="h5"
-                      style={{ color: "#e07006" }}>Roy Hsu</CardTitle>
+                    <CardTitle tag="h5" style={{ color: "#e07006" }}>
+                      Roy Hsu
+                    </CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
                       <br></br>
                       More than 20 years of experience in professional
@@ -144,13 +154,18 @@ export class about extends Component {
                     top
                     width="100%"
                     src={require("../images/Na Lan.png")}
-                    style = {{borderRadius: 45,    borderWidth: 6,
-                      borderStyle: "solid",}}
+                    style={{
+                      borderRadius: 45,
+                      borderWidth: 6,
+                      borderStyle: "solid",
+                    }}
                   />
                   <CardBody>
-                    <CardTitle tag="h5" style={{ color: "#e07006" }}>Na Lan</CardTitle>
+                    <CardTitle tag="h5" style={{ color: "#e07006" }}>
+                      Na Lan
+                    </CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
-                    <br></br>
+                      <br></br>
                       International Licensed Acupuncture Therapist. <br />
                       Six-year licensed acupuncturist and physiotherapist in
                       China Medical Clinic. <br />
@@ -184,19 +199,24 @@ export class about extends Component {
                     top
                     width="100%"
                     src={require("../images/Vivian.png")}
-                    style = {{borderRadius: 45,    borderWidth: 6,
-                      borderStyle: "solid",}}
+                    style={{
+                      borderRadius: 45,
+                      borderWidth: 6,
+                      borderStyle: "solid",
+                    }}
                   />
                   <CardBody>
-                    <CardTitle tag="h5" style={{ color: "#e07006" }}>Vivian</CardTitle>
-                    <CardSubtitle className=" text-white">
-                    <br></br>
+                    <CardTitle tag="h5" style={{ color: "#e07006" }}>
+                      Vivian
+                    </CardTitle>
+                    <CardSubtitle className="mb-2 text-white" tag="h6">
+                      <br></br>
                       More than 5 years of experience in professional
                       therapeutic massage. <br />
                       Traditional Chinsese Therapy and Association, Relaxation
                       Massage, Sport Massage. <br />
                       Hot Stone, Gua Sha, Cupping, Moxa Therapy, Transcutaneous
-                      Electrical Nerve Stimulation, Health Management
+                      Electrical Nerve Stimulation, Health Management.
                     </CardSubtitle>
                   </CardBody>
                 </Card>
@@ -220,19 +240,25 @@ export class about extends Component {
                     top
                     width="100%"
                     src={require("../images/Sunny.png")}
-                    style = {{borderRadius: 45,    borderWidth: 6,
-                      borderStyle: "solid",}}
+                    style={{
+                      borderRadius: 45,
+                      borderWidth: 6,
+                      borderStyle: "solid",
+                    }}
                   />
                   <CardBody>
-                    <CardTitle tag="h5" style={{ color: "#e07006" }} > Sunny </CardTitle>
+                    <CardTitle tag="h5" style={{ color: "#e07006" }}>
+                      {" "}
+                      Sunny{" "}
+                    </CardTitle>
                     <CardSubtitle className="mb-2 text-white" tag="h6">
-                    <br></br>
+                      <br></br>
                       More than 6 years of experience in professional
                       therapeutic massage. <br />
                       Traditional Chinsese Therapy and Association, Relaxation
                       Massage, Sport Massage. <br />
                       Hot Stone, Gua Sha, Cupping, Moxa Therapy, Transcutaneous
-                      Electrical Nerve Stimulation, Health Management
+                      Electrical Nerve Stimulation, Health Management.
                     </CardSubtitle>
                   </CardBody>
                 </Card>

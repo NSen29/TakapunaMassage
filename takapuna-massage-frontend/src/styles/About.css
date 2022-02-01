@@ -76,6 +76,5 @@
 }
 
 .card text-center .h1 {
- color: var(--secondary);
+  color: var(--secondary);
 }
-

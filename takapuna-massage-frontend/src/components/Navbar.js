@@ -14,9 +14,8 @@ export class Navbar extends Component {
       <div>
         <AppBar>
           <Toolbar className="nav-container">
-            <IconButton edge="start" color= "orange">
-              <Button color="inherit"
-                component={Link} to="/">
+            <IconButton edge="start" color="orange">
+              <Button color="inherit" component={Link} to="/">
                 <img
                   classname="icon"
                   src={logo}
@@ -27,19 +26,24 @@ export class Navbar extends Component {
               </Button>
             </IconButton>
             <Button color="inherit" component={Link} to="/">
-              Home
+              <b className="nav-button">Home</b>
             </Button>
-            <Button color="inherit" component={Link} to="/booking">
-              Book now
+            <Button
+              className="navbutton"
+              color="inherit"
+              component={Link}
+              to="/booking"
+            >
+              <b className="nav-button">Book now</b>
             </Button>
             <Button color="inherit" component={Link} to="/about">
-              About us
+              <b className="nav-button">About us</b>
             </Button>
             <Button color="inherit" component={Link} to="/pricing">
-              Services & Pricing
+              <b className="nav-button">Services & Pricing</b>
             </Button>
             <Button color="inherit" component={Link} to="/contact-us">
-              Contact us
+              <b className="nav-button">Contact us</b>
             </Button>
           </Toolbar>
         </AppBar>

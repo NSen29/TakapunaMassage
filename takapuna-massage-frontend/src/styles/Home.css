@@ -3,19 +3,15 @@
   justify-content: center;
   align-items: center;
   object-fit: cover;
- 
-
-
-
-  
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Courgette&display=swap');.text-on-image {
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Courgette&display=swap");
+.text-on-image {
   font-family: "Courgette", sans-serif;
   position: absolute;
-  right: 5%;
-  left: 5%;
-  bottom: 5%;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
   color: #ec9d0a;
   justify-content: center;
   align-items: center;
@@ -38,11 +34,11 @@
 .picture-text {
   font-family: "Belleza", sans-serif;
   font-style: italic;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 5px;
+  padding-right: 5px;
   align-content: center;
   text-align: center;
-  color: #FFF;
+  color: #fff;
 }
 
 .home .text-on-image .btn {
@@ -54,7 +50,6 @@
   font-size: 17pt;
   padding: 0.9rem;
   cursor: pointer;
-  width: 30%;
+  width: 30px;
   border-radius: 30px;
 }
-
