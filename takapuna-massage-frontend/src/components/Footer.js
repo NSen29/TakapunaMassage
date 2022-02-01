@@ -3,8 +3,6 @@ import React, { Component } from "react";
 import instagram from "../images/Instagram_logo.png";
 import facebook from "../images/Facebook_logo.png";
 
-// www.instagram.com/takapunamassage www.facebook.com/TAKAPUNA.THERAPEUTIC.MASSAGE
-
 export class Footer extends Component {
   render() {
     return (
@@ -16,31 +14,33 @@ export class Footer extends Component {
           alignItems: "center",
         }}
       >
-        <div className="column left">
-          <h2>Takapuna Therapeutic Massage</h2>
-          <p>106 Hurstmere Road, Takapuna, Auckland</p>
-          <p>Phone: 09-4860666</p>
-          <p>takapunamassage106@gmail.com</p>
+        <div className="column left footer-container" >
+          <h2 style={{ color: '#ff4500' }}>Takapuna Therapeutic Massage</h2>
+          <p style={{ color: 'whitesmoke' }}>106 Hurstmere Road, Takapuna, Auckland</p>
+          <p style={{ color: 'whitesmoke' }}>Phone: 09-4860666</p>
+          <p style={{ color: 'whitesmoke' }}>takapunamassage106@gmail.com</p>
           <br></br>
-          <a target="_blank" href="www.instagram.com/takapunamassage">
-            {" "}
-            <img src={instagram} alt="Instagram" width={"50px"} />{" "}
+          <a
+            href="https://www.instagram.com/takapunamassage/"
+            target="_blank"
+          >
+            <img src={instagram} alt="Instagram" width={"50px"} />{""}
           </a>
           <a
+            href="https://www.facebook.com/TAKAPUNA.THERAPEUTIC.MASSAGE"
             target="_blank"
-            href="www.facebook.com/TAKAPUNA.THERAPEUTIC.MASSAGE"
           >
-            <img src={facebook} alt="Facebook" width={"50px"} />{" "}
+            <img src={facebook} alt="Facebook" width={"50px"} />{""}
           </a>
           <br></br>
-          <h2>Opening hours</h2>
-          <p>Monday 10am-7pm</p>
-          <p>Tuesday 10am-7pm</p>
-          <p>Wednesday 10am-7pm</p>
-          <p>Thursday 10am-7pm</p>
-          <p>Friday 10am-7pm</p>
-          <p>Saturday 10am-7pm</p>
-          <p>Sunday 10am-7pm</p>
+          <h2 style={{ color: 'whitesmoke' }}>Opening hours</h2>
+          <p style={{ color: 'whitesmoke' }}>Monday 10am-7pm</p>
+          <p style={{ color: 'whitesmoke' }}>Tuesday 10am-7pm</p>
+          <p style={{ color: 'whitesmoke' }}>Wednesday 10am-7pm</p>
+          <p style={{ color: 'whitesmoke' }}>Thursday 10am-7pm</p>
+          <p style={{ color: 'whitesmoke' }}>Friday 10am-7pm</p>
+          <p style={{ color: 'whitesmoke' }}>Saturday 10am-7pm</p>
+          <p style={{ color: 'whitesmoke' }}>Sunday 10am-7pm</p>
         </div>
       </div>
     );

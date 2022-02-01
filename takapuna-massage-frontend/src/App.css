@@ -1,18 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
 html,
 body {
-  margin: 10;
+  margin: 0;
   margin-top: 86px;
+  padding-top: 86px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    "Noto Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  padding: 0;
+  background: url(./images/PinkFlower.jpg) left;
+
+  min-width: 100vh;
+  width: 100;
+  max-width: 100%;
+
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+body {
+  padding: 0;
+  background: url(./images/PinkFlower2.jpg) right invert(100%);
+  margin: 0;
+  min-width: 100vh;
+  width: 100;
+  max-width: 100%;
+
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  padding: 0;
+}
+
+:root {
+  --primary: rgb(243, 62, 62);
+  --secondary: rgb(224, 112, 6);
+  --dark: #212121;
+  --light: #f3f3f3;
+  --radius: 0.2rem;
 }
 
 .footer-container {
   margin: 0px auto 0 auto;
   width: auto;
-  background-color: #7a0000;
+  background-color: rgb(122, 0, 0, 0.9);
+
 }
 
 .container {
@@ -23,15 +60,25 @@ body {
 .nav-container {
   display: flex;
   justify-content: center;
-  color: white;
+  color: var(--secondary);
   background-color: black;
 }
 
+.nav-container a:hover {
+  background-color: #8b0000;
+  color: white;
+}
+
+.nav-button {
+  font-family: "Noto Sans";
+}
+
 .page-background {
-  background-image: url(./images/red.png);
-  background-repeat: repeat;
+  background: url(./images/r3d.png);
+  overflow: auto;
   resize: both;
   display: "flex";
+  flex-direction: row;
 }
 
 .column {
@@ -39,11 +86,6 @@ body {
 }
 
 .left {
-  width: 50%;
-  text-align: center;
-}
-
-.right {
   width: 50%;
   text-align: center;
 }

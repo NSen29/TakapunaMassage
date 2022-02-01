@@ -11,36 +11,43 @@ import logo from "../images/logo.png";
 export class Navbar extends Component {
   render() {
     return (
-      <AppBar>
-        <Toolbar className="nav-container">
-          <IconButton edge="start" color="inherit">
+      <div>
+        <AppBar>
+          <Toolbar className="nav-container">
+            <IconButton edge="start" color="orange">
+              <Button color="inherit" component={Link} to="/">
+                <img
+                  classname="icon"
+                  src={logo}
+                  alt="Logo"
+                  height="50px"
+                  width="50px"
+                />
+              </Button>
+            </IconButton>
             <Button color="inherit" component={Link} to="/">
-              <img
-                classname="icon"
-                src={logo}
-                alt="Logo"
-                height="50px"
-                width="50px"
-              />
+              <b className="nav-button">Home</b>
             </Button>
-          </IconButton>
-          <Button color="inherit" component={Link} to="/">
-            Home
-          </Button>
-          <Button color="inherit" component={Link} to="/booking">
-            Book now
-          </Button>
-          <Button color="inherit" component={Link} to="/about">
-            About us
-          </Button>
-          <Button color="inherit" component={Link} to="/pricing">
-            Services & Pricing
-          </Button>
-          <Button color="inherit" component={Link} to="/contact-us">
-            Contact us
-          </Button>
-        </Toolbar>
-      </AppBar>
+            <Button
+              className="navbutton"
+              color="inherit"
+              component={Link}
+              to="/booking"
+            >
+              <b className="nav-button">Book now</b>
+            </Button>
+            <Button color="inherit" component={Link} to="/about">
+              <b className="nav-button">About us</b>
+            </Button>
+            <Button color="inherit" component={Link} to="/pricing">
+              <b className="nav-button">Services & Pricing</b>
+            </Button>
+            <Button color="inherit" component={Link} to="/contact-us">
+              <b className="nav-button">Contact us</b>
+            </Button>
+          </Toolbar>
+        </AppBar>
+      </div>
     );
   }
 }

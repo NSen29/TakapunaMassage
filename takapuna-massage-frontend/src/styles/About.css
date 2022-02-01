@@ -1,0 +1,80 @@
+:root {
+  --primary: rgb(243, 62, 62);
+  --secondary: rgb(224, 112, 6);
+  --dark: #212121;
+  --light: #f3f3f3;
+  --radius: 0.2rem;
+}
+
+.about-content {
+  margin: 16px;
+  margin-top: 0.5rem;
+}
+
+.about h3,
+.about p {
+  margin: 0;
+  padding: 0;
+}
+
+.CardTitle {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.about .Button {
+  display: flex;
+  justify-content: center;
+}
+
+.about .Button Button:hover {
+  background: white;
+}
+
+.CardSubtitle {
+  text-transform: uppercase;
+  color: orangered;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gap {
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+.Container .gap {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap");
+.about Body {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.about img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.card text-center .h1 {
+  color: var(--secondary);
+}

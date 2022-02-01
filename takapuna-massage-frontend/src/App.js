@@ -18,6 +18,9 @@ export class App extends Component {
         <Router>
           <Navbar />
           <div className="container">
+            <p>
+              <br />
+            </p>
             <Switch>
               <Route exact path="/" component={home} />
               <Route exact path="/booking" component={booking} />
@@ -26,6 +29,7 @@ export class App extends Component {
               <Route exact path="/contact-us" component={contact} />
             </Switch>
           </div>
+          <br />
         </Router>
 
         <div>

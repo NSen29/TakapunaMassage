@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/price.css";
+
 import {
   Card,
   CardImg,
@@ -25,15 +26,15 @@ export class pricing extends Component {
   };
   render() {
     return (
-      <div className="card text-center ">
+      <div className="card text-center " style={{ backgroundColor: "#8b0000", position: "relative", borderWidth: 28, borderColor: "black" }}>
         <Container className="gap">
           <Row>
             <Col md={6}>
               <Card
                 body
                 style={{
-                  backgroundColor: "#e07006",
-                  borderColor: "#f33e3e",
+                  backgroundColor: "#8b0000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -44,10 +45,12 @@ export class pricing extends Component {
                   width="100%"
                   src={require("../images/Head, Neck and Shoulders.jpg")}
                   alt="Head Neck and Shoulders"
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
 
                 <CardBody body color="light">
-                  <CardTitle tag="h5"> Head, Neck and Shoulders </CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}> Head, Neck and Shoulders </CardTitle>
                   <CardSubtitle>
                     <p className="mb-2 text-white" tag="h6" color="light">
                       10 min session for $20 / 20 min session for $35 / 30 min
@@ -67,8 +70,8 @@ export class pricing extends Component {
                 body
                 style={{
                   textAlign: "center",
-                  backgroundColor: "#212121",
-                  borderColor: "#d00000",
+                  backgroundColor: "#8b0000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -78,9 +81,11 @@ export class pricing extends Component {
                   top
                   width="100%"
                   src={require("../images/Upper or Lower Body.jpg")}
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
                 <CardBody>
-                  <CardTitle tag="h5">Upper/Lower Body </CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}>Upper/Lower Body </CardTitle>
                   <CardSubtitle className=" text-white">
                     (Neck, Shoulders and Back / Back and Leg ) 30 min sessions
                     for $50 / 45 min session for $70 / 60 min session for $85
@@ -96,7 +101,7 @@ export class pricing extends Component {
                 body
                 style={{
                   backgroundColor: "#8b0000",
-                  borderColor: "#d00000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -106,12 +111,14 @@ export class pricing extends Component {
                   top
                   width="100%"
                   src={require("../images/Whole Body.jpg")}
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
                 <CardBody>
-                  <CardTitle tag="h5"> Whole Body </CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}> Whole Body </CardTitle>
                   <CardSubtitle className="mb-2 text-white" tag="h6">
                     45 min session for $70 / 60 min session for $85 / 90 min
-                    session for $125 / <br></br> 120 min session for $160
+                    session for $125  <br></br> / 120 min session for $160
                   </CardSubtitle>
                   <CardText className="mb-2 text-success">
                     *Extra service types available
@@ -123,8 +130,8 @@ export class pricing extends Component {
               <Card
                 body
                 style={{
-                  backgroundColor: "#e07006",
-                  borderColor: "#d00000",
+                  backgroundColor: "#8b0000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -134,9 +141,11 @@ export class pricing extends Component {
                   top
                   width="100%"
                   src={require("../images/Reflexology.jpg")}
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
                 <CardBody>
-                  <CardTitle tag="h5"> Reflexology Foot Massage </CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}> Reflexology Foot Massage </CardTitle>
                   <CardSubtitle className="mb-2 text-white" tag="h6">
                     30 min session for $50 / 45 min session for $75 / 60 min
                     session for $90
@@ -152,8 +161,8 @@ export class pricing extends Component {
               <Card
                 body
                 style={{
-                  backgroundColor: "#212121",
-                  borderColor: "#d00000",
+                  backgroundColor: "#8b0000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -163,9 +172,11 @@ export class pricing extends Component {
                   top
                   width="100%"
                   src={require("../images/Whole Body with Reflexology.jpg")}
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
                 <CardBody>
-                  <CardTitle tag="h5">Whole Body with Reflexology </CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}>Whole Body with Reflexology </CardTitle>
                   <CardSubtitle
                     className="mb-2 text-white"
                     tag="h6"
@@ -185,7 +196,7 @@ export class pricing extends Component {
                 body
                 style={{
                   backgroundColor: "#8b0000",
-                  borderColor: "#d00000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -195,9 +206,11 @@ export class pricing extends Component {
                   top
                   width="100%"
                   src={require("../images/Additional Services.jpg")}
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
                 <CardBody>
-                  <CardTitle tag="h5">Additional Services</CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}>Additional Services</CardTitle>
                   <CardSubtitle
                     className="mb-2 text-white"
                     tag="h6"
@@ -217,8 +230,8 @@ export class pricing extends Component {
               <Card
                 body
                 style={{
-                  backgroundColor: "#e07006",
-                  borderColor: "#d00000",
+                  backgroundColor: "#8b0000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -228,9 +241,11 @@ export class pricing extends Component {
                   top
                   width="100%"
                   src={require("../images/Accupuncture.jpg")}
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
                 <CardBody>
-                  <CardTitle tag="h5"> Accupuncture Treatment </CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}> Accupuncture Treatment </CardTitle>
                   <CardSubtitle className="mb-2 text-white" tag="h6">
                     20 min sessions for $35 / 30 min session for $55 / 45 min
                     session for $70 / 60 min session for $85
@@ -244,8 +259,8 @@ export class pricing extends Component {
               <Card
                 body
                 style={{
-                  backgroundColor: "#212121",
-                  borderColor: "#d00000",
+                  backgroundColor: "#8b0000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -255,9 +270,11 @@ export class pricing extends Component {
                   top
                   width="100%"
                   src={require("../images/Moxibustion.jpg")}
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
                 <CardBody>
-                  <CardTitle tag="h5"> Moxibustion Treatment </CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}> Moxibustion Treatment </CardTitle>
                   <CardSubtitle className="mb-2 text-white" tag="h6">
                     20 min session for $40 / 30 min session for $60 / 45 min
                     session for $75 / 60 min session for $90
@@ -272,7 +289,7 @@ export class pricing extends Component {
                 body
                 style={{
                   backgroundColor: "#8b0000",
-                  borderColor: "#d00000",
+                  borderColor: "#e07006",
                   borderWidth: 0,
                   borderStyle: "groove",
                 }}
@@ -282,9 +299,11 @@ export class pricing extends Component {
                   top
                   width="100%"
                   src={require("../images/Extra Service.jpg")}
+                  style = {{borderRadius: 25,  borderColor: "#e07006",
+                  borderWidth: 8, borderStyle: "groove"}}
                 />
                 <CardBody>
-                  <CardTitle tag="h5"> Extra Service Types </CardTitle>
+                  <CardTitle tag="h5" style={{ color: "#e07006" }}> Extra Service Types </CardTitle>
                   <CardSubtitle className="mb-2 text-white" tag="h6">
                     Therapeutic / Swedish/Relaxing / Sport / Deep Tissue (+$10)
                   </CardSubtitle>
