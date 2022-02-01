@@ -21,8 +21,18 @@ import carousel5 from "../images/carousel5.jpeg";
 import carousel6 from "../images/carousel6.jpeg";
 import carousel7 from "../images/carousel7.jpeg";
 import carousel8 from "../images/carousel8.jpeg";
+import { orange } from "@mui/material/colors";
+import { withStyles } from "@material-ui/core/styles";
+import Typography from "@mui/material/Typography";
+
 
 import "../styles/About.css";
+
+const BlueTextTypography = withStyles({
+  root: {
+    color: "#e07006",
+  },
+})(Typography);
 
 export class about extends Component {
   render() {
@@ -80,15 +90,25 @@ export class about extends Component {
             borderColor: "black",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <h1>Employees</h1>
-          </div>
+          <BlueTextTypography variant="body4" color="text.tertiary">
+                <div
+                  className="box1"
+                  style={{
+                    textAlign: "center",
+                    backgroundColor: "#212121",
+                    borderColor: "#8b0000",
+                    borderWidth: 10,
+                    borderStyle: "groove",
+                  }}
+                >
+                  <h2 style={{ color: orange }}> Employees</h2>
+                  
+                  
+                </div>
+                </BlueTextTypography>
+                <br>
+                </br>
+
           <Container className="gap">
             <Row>
               <Col md={3}>
