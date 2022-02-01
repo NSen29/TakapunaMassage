@@ -52,7 +52,7 @@ export class about extends Component {
             autoPlay={true}
             swipeable={true}
             emulateTouch={true}
-            width={"1000px"}
+            width={"1000"}
           >
             <div>
               <img src={carousel1} alt="carousel1" />
