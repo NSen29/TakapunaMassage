@@ -134,7 +134,7 @@ export default function contact() {
               Car Park Location
             </h3>
           </BlueTextTypography>
-          <img src={CarPark} alt="Car Park" width="px" />
+          <img src={CarPark} alt="Car Park" width="95%" />
 
         </CardContent>
       </Card>
