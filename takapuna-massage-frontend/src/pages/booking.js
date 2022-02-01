@@ -16,7 +16,7 @@ export class booking extends Component {
               justifyContent: "center",
               borderRadius: 100,
               borderColor: "#8b0000",
-              backgroundColor: "#e21111",
+              backgroundColor: "#8b0000",
               borderWidth: 100,
               fontWeight: "bold",
               color: "white",

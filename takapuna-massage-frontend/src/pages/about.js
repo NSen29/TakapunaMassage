@@ -144,11 +144,11 @@ export class about extends Component {
                     <CardSubtitle className="mb-2 text-white" tag="h6">
                       <br></br>
                       More than 20 years of experience in professional
-                      therapeutic massage. <br />
+                      therapeutic massage. <br></br>
                       Traditional Chinese Therapy and Arcmatherapy, Original
-                      Point Therapy, Relaxation Massage. <br />
+                      Point Therapy, Relaxation Massage.  <br></br>
                       Licensed by Taiwan Rehabilitation Practitioners
-                      Association. <br />
+                      Association.  <br></br>
                       Hot Stone, Gua Sha, Cupping, Moxa Therapy, Transcutaneous
                       Electrical Nerve Stimulation, Health Management.
                     </CardSubtitle>

@@ -26,7 +26,7 @@ export class pricing extends Component {
   };
   render() {
     return (
-      <div className="card text-center " style={{ backgroundColor: "#8b0000", position: "relative", borderWidth: 28, borderColor: "black" }}>
+      <div className="card text-center " style={{ backgroundColor: "#8b0000", position: "relative", borderWidth: 28, borderColor: "black", borderRadius: 25 }}>
         <Container className="gap">
           <Row>
             <Col md={6}>
@@ -58,7 +58,7 @@ export class pricing extends Component {
                     </p>
                   </CardSubtitle>
                   <CardText>
-                    <p className="mb-2 text-success" tag="h6" color="light">
+                    <p className="mb-2" tag="h6"  style={{ color: "#113B08" }} >
                       *Extra service types available
                     </p>
                   </CardText>
@@ -90,7 +90,7 @@ export class pricing extends Component {
                     (Neck, Shoulders and Back / Back and Leg ) 30 min sessions
                     for $50 / 45 min session for $70 / 60 min session for $85
                   </CardSubtitle>
-                  <CardText className="mb-2 text-success" tag="h6">
+                  <CardText className="mb-2"  style={{ color: "#113B08" }} tag="h6">
                     *Extra service types available
                   </CardText>
                 </CardBody>
@@ -120,7 +120,7 @@ export class pricing extends Component {
                     45 min session for $70 / 60 min session for $85 / 90 min
                     session for $125  <br></br> / 120 min session for $160
                   </CardSubtitle>
-                  <CardText className="mb-2 text-success">
+                  <CardText className="mb-2 "  style={{ color: "#113B08" }} >
                     *Extra service types available
                   </CardText>
                 </CardBody>
@@ -150,7 +150,7 @@ export class pricing extends Component {
                     30 min session for $50 / 45 min session for $75 / 60 min
                     session for $90
                   </CardSubtitle>
-                  <CardText className="mb-2 text-success">
+                  <CardText className="mb-2"  style={{ color: "#113B08" }} >
                     *Extra service types available
                   </CardText>
                   <HoverText3 />
@@ -184,7 +184,7 @@ export class pricing extends Component {
                   >
                     90 min session for $130 / 120 min session for $170
                   </CardSubtitle>
-                  <CardText className="mb-2 text-success">
+                  <CardText className="mb-2"  style={{ color: "#113B08" }} >
                     *Extra service types available
                   </CardText>
                   <HoverText3 />

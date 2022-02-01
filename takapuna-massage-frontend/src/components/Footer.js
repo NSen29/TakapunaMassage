@@ -15,7 +15,7 @@ export class Footer extends Component {
         }}
       >
         <div className="column left footer-container" >
-          <h2 style={{ color: '#ff4500' }}>Takapuna Therapeutic Massage</h2>
+          <h2 style={{ color: "#e07006" }}>Takapuna Therapeutic Massage</h2>
           <p style={{ color: 'whitesmoke' }}>106 Hurstmere Road, Takapuna, Auckland</p>
           <p style={{ color: 'whitesmoke' }}>Phone: 09-4860666</p>
           <p style={{ color: 'whitesmoke' }}>takapunamassage106@gmail.com</p>
