@@ -11,7 +11,7 @@
   position: absolute;
   right: 10px;
   left: 10px;
-  bottom: 10px;
+  top: 50%;
   color: #ec9d0a;
   justify-content: center;
   align-items: center;

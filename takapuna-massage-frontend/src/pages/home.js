@@ -29,7 +29,7 @@ export class home extends Component {
             swipeable={true}
             emulateTouch={true}
             showStatus={false}
-            width={"1300px"}
+            width={"1300"}
             interval={"5000"}
           >
             <div>
@@ -97,7 +97,7 @@ export class home extends Component {
             alignItems: "center",
           }}
         >
-          <img src={storefront} alt="store front" width="600px" />
+          <img src={storefront} alt="store front" width="600" />
         </div>
         <img src="../images/red.png" id="bg" alt="" />
         <div

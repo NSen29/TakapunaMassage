@@ -119,9 +119,7 @@ export default function contact() {
         }}
         sx={{ mx: 10 }}
       >
-        <CardContent
-          style={{ borderWidth: 16, borderColor: "#8b0000" }}
-        >
+        <CardContent style={{ borderWidth: 16, borderColor: "#8b0000" }}>
           <img src={CarPark} alt="Car Park" width="px" />
           <BlueTextTypography variant="body4" color="text.tertiary">
             <h3
