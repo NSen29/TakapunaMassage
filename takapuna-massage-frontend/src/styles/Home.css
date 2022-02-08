@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   object-fit: cover;
+  
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Courgette&display=swap");
@@ -39,6 +40,7 @@
   align-content: center;
   text-align: center;
   color: #fff;
+  
 }
 
 .home .text-on-image .btn {

@@ -19,6 +19,7 @@ export class home extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            
           }}
         >
           <Carousel
@@ -95,6 +96,7 @@ export class home extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            
           }}
         >
           <img src={storefront} alt="store front" width="600" />
@@ -108,7 +110,7 @@ export class home extends Component {
           }}
           className="picture-text"
         >
-          <h2 style={{ fontSize: 35, margin: "5%" }}>
+          <h2 style={{ fontSize: 35, margin: "5%", color: "white", background: "#8b0000"}}>
             Takapuna Therapeutic Massage is a Professional Traditional Massage
             shop in Takapuna North Shore. We also sell massage products such as
             patches, medical ointment and massagers. Our therapeutic massages
