@@ -134,8 +134,15 @@ export default function contact() {
               Car Park Location
             </h3>
           </BlueTextTypography>
-          <img src={CarPark} alt="Car Park" width="95%" />
+          <a
+          href="https://www.google.com/maps/place/106+Hurstmere+Road,+Takapuna,+Auckland+0622/@-36.7863744,174.7706028,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d39d7fb2172d1:0xe03ff307b721822b!8m2!3d-36.7863744!4d174.7727915>"
+          target= "_blank"
+          >
+                      <img src={CarPark} alt="Car Park" width="95%" />
 
+          </a>
+
+        
         </CardContent>
       </Card>
 
