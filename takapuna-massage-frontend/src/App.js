@@ -7,7 +7,7 @@ import booking from "./pages/booking";
 import about from "./pages/about";
 import pricing from "./pages/pricing";
 import contact from "./pages/contact";
-
+import specials from "./pages/specials";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -27,6 +27,7 @@ export class App extends Component {
               <Route exact path="/about" component={about} />
               <Route exact path="/pricing" component={pricing} />
               <Route exact path="/contact-us" component={contact} />
+              <Route exact path="/specials" component={specials} />
             </Switch>
           </div>
           <br />
