@@ -57,10 +57,9 @@ export class pricing extends Component {
                       session for $50{" "}
                     </p>
                   </CardSubtitle>
-                  <CardText>
-                    <p className="mb-2" tag="h6"  style={{ color: "#113B08" }} >
+                  <CardText className="mb-2" style={{ color: "#113B08" }} tag ="h6">
                       *Extra service types available
-                    </p>
+
                   </CardText>
                 </CardBody>
               </Card>
@@ -120,7 +119,7 @@ export class pricing extends Component {
                     45 min session for $70 / 60 min session for $85 / 90 min
                     session for $125  <br></br> / 120 min session for $160
                   </CardSubtitle>
-                  <CardText className="mb-2 "  style={{ color: "#113B08" }} >
+                  <CardText className="mb-2 "  style={{ color: "#113B08" }} tag= "h6" >
                     *Extra service types available
                   </CardText>
                 </CardBody>
@@ -150,7 +149,7 @@ export class pricing extends Component {
                     30 min session for $50 / 45 min session for $75 / 60 min
                     session for $90
                   </CardSubtitle>
-                  <CardText className="mb-2"  style={{ color: "#113B08" }} >
+                  <CardText className="mb-2"  style={{ color: "#113B08" }} tag ="h6">
                     *Extra service types available
                   </CardText>
                   <HoverText3 />
@@ -184,7 +183,7 @@ export class pricing extends Component {
                   >
                     90 min session for $130 / 120 min session for $170
                   </CardSubtitle>
-                  <CardText className="mb-2"  style={{ color: "#113B08" }} >
+                  <CardText className="mb-2"  style={{ color: "#113B08" }} tag ="h6">
                     *Extra service types available
                   </CardText>
                   <HoverText3 />

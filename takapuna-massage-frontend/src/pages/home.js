@@ -6,7 +6,7 @@ import Link from "react-router-dom/Link";
 
 import banner from "../images/homebanner.jpeg";
 import banner2 from "../images/banner2.png";
-import storefront from "../images/storefront.png";
+//import storefront from "../images/storefront.png";
 
 import "../styles/Home.css";
 
@@ -97,7 +97,6 @@ export class home extends Component {
             alignItems: "center",
           }}
         >
-          <img src={storefront} alt="store front" width="600" />
         </div>
         <img src="../images/red.png" id="bg" alt="" />
         <div

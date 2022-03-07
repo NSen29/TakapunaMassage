@@ -42,6 +42,9 @@ export class Navbar extends Component {
             <Button color="inherit" component={Link} to="/pricing">
               <b className="nav-button">Services & Pricing</b>
             </Button>
+            <Button color="inherit" component={Link} to="/specials">
+              <b className="nav-button">Special Offers</b>
+            </Button>
             <Button color="inherit" component={Link} to="/contact-us">
               <b className="nav-button">Contact us</b>
             </Button>

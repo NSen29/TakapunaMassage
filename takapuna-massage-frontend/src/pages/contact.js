@@ -5,8 +5,9 @@ import Typography from "@mui/material/Typography";
 import { withStyles } from "@material-ui/core/styles";
 import MapContainer from "../components/MapContainer";
 import "../styles/contact.css";
-import CarPark from "../images/CarPark.jpg";
 import { orange } from "@mui/material/colors";
+import MapLoc from "../images/MapLoc.png";
+import storefront from "../images/storefront.png";
 
 const BlueTextTypography = withStyles({
   root: {
@@ -18,27 +19,32 @@ export default function contact() {
   return (
     <div
       className="header"
-      style={{ textAlign: "center", borderWidth: 15, borderColor: "#8b0000" }}
+      style={{ textAlign: "center", borderWidth: 15, borderColor: "#8b0000", justifyContent: "center", alignContent: "center" }}
     >
+      <div>
+        <Card style={{
+
+          backgroundColor: "black"
+        }}
+        sx={{ mx:10}}
+        >
+   
+                                        <img src={storefront} alt="store front" width="100%" />
+         
+
+        </Card>
+
+      </div>
       <div
         className="textbox"
         style={{
           textAlign: "center",
-          display: "flex",
-          justifyContent: "left",
           borderWidth: 15,
           borderColor: "#8b0000",
         }}
       >
         <div
-          className="map"
-          style={{
-            display: "flex",
-            justifyContent: "right",
-            flexDirection: "center",
-            borderWidth: 15,
-            borderColor: "#8b0000",
-          }}
+         
         >
           <Card
             style={{
@@ -46,7 +52,7 @@ export default function contact() {
               borderColor: "#8b0000",
               backgroundColor: "black",
             }}
-            sx={{ mx: 5 }}
+            sx={{ mx: 10 }}
           >
             <CardContent
               className="email"
@@ -62,17 +68,18 @@ export default function contact() {
                     borderWidth: 25,
                     borderStyle: "groove",
                   }}
+
                 >
-                  <h2 style={{ color: orange }}> Contact Details</h2>
-                  <p style={{ color: 'white' }}>TAKAPUNAMASSAGE106@GMAIL.COM</p>
-                  <p style={{ color: 'white' }}>09-486 0666</p>
-                  <p style={{ color: 'white' }}>106 HURSTMERE ROAD TAKAPUNA 0622 AUCKLAND</p>
+                  <h2 style={{ color: orange, fontSize: 50, margin: "5%"  }}> Contact Details</h2 >
+                  <p style={{ color: 'white', fontSize: 20, margin: "5%" }}>TAKAPUNAMASSAGE106@GMAIL.COM</p >
+                  <p style={{ color: 'white', fontSize: 20, margin: "5%"  }}>09-486 0666</p>
+                  <p style={{ color: 'white', fontSize: 20, margin: "5%"  }}>106 HURSTMERE ROAD TAKAPUNA 0622 AUCKLAND</p>
                 </div>
               </BlueTextTypography>
             </CardContent>
 
             <CardContent>
-              <BlueTextTypography variant="body1" color="text.tertiary">
+              <BlueTextTypography variant="body4" color="text.tertiary">
                 <div
                   className="box1"
                   style={{
@@ -82,31 +89,26 @@ export default function contact() {
                     borderWidth: 25,
                     borderStyle: "groove",
                   }}
+
                 >
-                  <h1>Opening Hours</h1>
-                  <p style={{ color: 'white' }}>Mon: 10:00AM - 07:00PM</p>
-                  <p style={{ color: 'white' }}>Tues: 10:00AM - 07:00PM</p>
-                  <p style={{ color: 'white' }}>Wed: 10:00AM - 07:00PM</p>
-                  <p style={{ color: 'white' }}>Thur: 10:00AM - 07:00PM</p>
-                  <p style={{ color: 'white' }}>Fri: 10:00AM - 07:00PM</p>
-                  <p style={{ color: 'white' }}>Sat: 10:00AM - 07:00PM</p>
-                  <p style={{ color: 'white' }}>Sun: 10:00AM - 07:00PM</p>
-                  <p style={{ color: 'white' }}>( After hour appointments available )</p>
+                  <h2 style={{ fontSize: 50, margin: "5%"}} >Opening Hours</h2>
+                  <p style={{ color: 'white', fontSize: 20, margin: "5%"  }}>Mon: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white' , fontSize: 20, margin: "5%" }}>Tues: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white', fontSize: 20, margin: "5%"  }}>Wed: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white' , fontSize: 20, margin: "5%" }}>Thur: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white' , fontSize: 20, margin: "5%" }}>Fri: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white' , fontSize: 20, margin: "5%" }}>Sat: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white' , fontSize: 20, margin: "5%" }}>Sun: 10:00AM - 07:00PM</p>
+                  <p style={{ color: 'white' , fontSize: 20, margin: "5%" }}>( After hour appointments available )</p>
                 </div>
+                
               </BlueTextTypography>
             </CardContent>
           </Card>
         </div>
-        <div style={{
-          position: "relative",
-          height: "500px",
-          paddingTop: "50px"
-        }}
-        >
-          <MapContainer className="MapContainer" />
         </div>
-
-      </div>
+        
+ 
 
       <Card
         style={{
@@ -121,24 +123,21 @@ export default function contact() {
           style={{ borderWidth: 16, borderColor: "#8b0000" }}
         >
           <BlueTextTypography variant="body4" color="text.tertiary">
-            <h3
-              style={{
-                color: "#e07006",
-                textAlign: "center",
-                backgroundColor: "#212121",
-                borderColor: "#8b0000",
-                borderWidth: 25,
-                borderStyle: "groove",
-              }}
-            >
-              Car Park Location
-            </h3>
-          </BlueTextTypography>
+            <div
+
+                >
+                  
+                  <p style={{ color: 'white' }}>( Click on image to view map )</p>
+                </div>
+              </BlueTextTypography>
+      
           <a
-          href="https://www.google.com/maps/place/106+Hurstmere+Road,+Takapuna,+Auckland+0622/@-36.7863744,174.7706028,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d39d7fb2172d1:0xe03ff307b721822b!8m2!3d-36.7863744!4d174.7727915>"
+  
+                                href="https://www.google.com/maps/dir//106+Hurstmere+Road,+Takapuna,+Auckland/@-36.7863382,174.7710596,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x6d0d39d7fb2172d1:0xe03ff307b721822b!2m2!1d174.7727915!2d-36.7863744!3e2"
           target= "_blank"
           >
-                      <img src={CarPark} alt="Car Park" width="95%" />
+                      <img src={MapLoc} alt="Location" width="95%" />
+
 
           </a>
 

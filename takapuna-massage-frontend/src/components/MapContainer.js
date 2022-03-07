@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/*import React, { Component } from "react";
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react";
 
 const mapStyles = {
@@ -78,4 +78,4 @@ export class MapContainer extends Component {
 
 export default GoogleApiWrapper({
   apiKey: "AIzaSyAkvXbkIBGHFX7AHthRQVJSUMYrD2fBkXA",
-})(MapContainer);
+})(MapContainer);*/
