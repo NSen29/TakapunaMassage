@@ -3,7 +3,6 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { withStyles } from "@material-ui/core/styles";
-import MapContainer from "../components/MapContainer";
 import "../styles/contact.css";
 import { orange } from "@mui/material/colors";
 import MapLoc from "../images/MapLoc.png";
@@ -19,7 +18,7 @@ export default function contact() {
   return (
     <div
       className="header"
-      style={{ textAlign: "center", borderWidth: 15, borderColor: "#8b0000", justifyContent: "center", alignContent: "center" }}
+      style={{ textAlign: "center", borderWidth: 28, borderColor: "black", justifyContent: "center", alignContent: "center",   borderStyle: "groove", backgroundColor:"#8b0000", borderRadius: 25 }}
     >
       <div>
         <Card style={{
@@ -41,6 +40,7 @@ export default function contact() {
           textAlign: "center",
           borderWidth: 15,
           borderColor: "#8b0000",
+          
         }}
       >
         <div
@@ -56,7 +56,7 @@ export default function contact() {
           >
             <CardContent
               className="email"
-              style={{ borderWidth: 16, borderColor: "#8b0000" }}
+              style={{ borderWidth: 16, borderColor: "#8b0000",  borderRadius: 25 }}
             >
               <BlueTextTypography variant="body4" color="text.tertiary">
                 <div
@@ -67,6 +67,7 @@ export default function contact() {
                     borderColor: "#8b0000",
                     borderWidth: 25,
                     borderStyle: "groove",
+                    borderRadius: 25
                   }}
 
                 >
@@ -88,6 +89,7 @@ export default function contact() {
                     borderColor: "#8b0000",
                     borderWidth: 25,
                     borderStyle: "groove",
+                    borderRadius: 25
                   }}
 
                 >
@@ -112,7 +114,7 @@ export default function contact() {
 
       <Card
         style={{
-          borderWidth: 10,
+          borderWidth: 25,
           borderColor: "#8b0000",
           backgroundColor: "black",
         }}
@@ -120,7 +122,7 @@ export default function contact() {
       >
         <CardContent
           className="email"
-          style={{ borderWidth: 16, borderColor: "#8b0000" }}
+          style={{ borderWidth: 25, borderColor: "#8b0000" }}
         >
           <BlueTextTypography variant="body4" color="text.tertiary">
             <div
@@ -131,14 +133,9 @@ export default function contact() {
                 </div>
               </BlueTextTypography>
       
-          <a
-  
-                                href="https://www.google.com/maps/dir//106+Hurstmere+Road,+Takapuna,+Auckland/@-36.7863382,174.7710596,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x6d0d39d7fb2172d1:0xe03ff307b721822b!2m2!1d174.7727915!2d-36.7863744!3e2"
-          target= "_blank"
-          >
-                      <img src={MapLoc} alt="Location" width="95%" />
-
-
+          <a  href="https://www.google.com/maps/dir//106+Hurstmere+Road,+Takapuna,+Auckland/@-36.7863382,174.7710596,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x6d0d39d7fb2172d1:0xe03ff307b721822b!2m2!1d174.7727915!2d-36.7863744!3e2"
+          target= "_blank" >
+         <img src={MapLoc} alt="Location" width="95%" />
           </a>
 
         

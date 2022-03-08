@@ -39,7 +39,7 @@ export class home extends Component {
                 </div>
                 <div className="text-on-image">
                   <br />
-                  <h1>
+                  <h1 style={{fontSize: 45}}>
                     Treat yourself to a massage, free your mind,
                     <br /> calm your body and soul
                   </h1>
@@ -48,9 +48,10 @@ export class home extends Component {
                       borderRadius: 35,
                       borderWidth: 30,
                       fontWeight: "bold",
-                      color: "black",
+                      color: "#8b0000",
                     }}
                     variant="contained"
+                    color="error"
                     component={Link}
                     to="/booking"
                   >
@@ -67,18 +68,21 @@ export class home extends Component {
                 </div>
                 <div className="text-on-image">
                   <br />
-                  <h1>
+                  <h1 style={{fontSize: 45}}>
                     Learn more about our <br />
                     services we provide
                   </h1>
                   <Button
+                    variant="contained"
+                    color="error"
                     style={{
                       borderRadius: 35,
-                      borderWidth: 30,
+                      borderWidth: 10,
                       fontWeight: "bold",
-                      color: "black",
+                      color:"#8b0000",
+                     
                     }}
-                    variant="contained"
+                  
                     component={Link}
                     to="/pricing"
                   >
